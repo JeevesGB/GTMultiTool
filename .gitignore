@@ -1,3 +1,6 @@
-external/pez2k/*.exe 
-git
-testconversions
+external/pez2k/GT2ModelTool.exe
+external/pez2k/GT2TextureEditor.exe
+external/pez2k/GT2BillboardEditor.exe
+
+git/
+testconversions/
