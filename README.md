@@ -17,8 +17,8 @@ python main.py
 
 ## Screenshots
 
-![Main application window](images/1.png)
-![Tool selection / mode switch](images/2.png)
-![Editor interface example 1](images/3.png)
-![Editor interface example 2](images/4.png)
-![Additional view / export screen](images/5.png)
+![Main Window](git/1.png)
+![Main Window](git/2.png)
+![Main Window](git/3.png)
+![Main Window](git/4.png)
+![Main Window](git/5.png)
