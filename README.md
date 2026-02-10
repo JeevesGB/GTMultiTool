@@ -18,7 +18,11 @@ python main.py
 ## Screenshots
 
 ![Main Window](git/1.png)
+
 ![Main Window](git/2.png)
+
 ![Main Window](git/3.png)
+
 ![Main Window](git/4.png)
+
 ![Main Window](git/5.png)
