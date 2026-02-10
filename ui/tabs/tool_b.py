@@ -201,7 +201,6 @@ class ToolBTab(QWidget):
         elif path.lower().endswith(".tim"):
             self.load_tim_file(path)
 
-
     def _wheel_event(self, event):
         factor = 1.1 if event.angleDelta().y() > 0 else 0.9
         self.zoom_factor *= factor
@@ -241,7 +240,6 @@ class ToolBTab(QWidget):
         self.scene.addPixmap(pix)
         self.view.fitInView(self.scene.itemsBoundingRect(), Qt.AspectRatioMode.KeepAspectRatio)
 
-
     def populate_palette(self):
         self.palette_tree.clear()
         if not self.image_info or not self.image_info["clut"]:
@@ -261,7 +259,6 @@ class ToolBTab(QWidget):
             self.image_info["clut"][idx] = (new_color.red(), new_color.green(), new_color.blue())
             self.populate_palette()
             self.render_image()
-
 
     def backup_tim(self):
         if not self.image_info or "path" not in self.image_info:
@@ -339,7 +336,6 @@ class ToolBTab(QWidget):
             QMessageBox.information(self,"Save TIM",f"File saved:\n{path}")
         except Exception as e:
             QMessageBox.critical(self,"Save TIM",str(e))
-
 
     def get_state(self):
         return {

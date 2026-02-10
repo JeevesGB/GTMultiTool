@@ -217,6 +217,7 @@ class ToolATab(QWidget):
             "split_data_path": self.config.get("split_data_path", ""),
             "entries": {k: v.text() for k, v in self.entries.items()}
         }
+    
     def load_state(self, state):
         path = state.get("split_data_path")
         if path and os.path.isdir(path):
