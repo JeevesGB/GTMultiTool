@@ -1,0 +1,40 @@
+{
+  "themes": [
+    {
+      "mytheme": {
+        "type": "dark",                    
+        "colors": {
+          "primary": "#B7C9DB",
+          "secondary": "#d1d5db",
+          "success": "#28a745",
+          "danger": "#dc3545",
+          "warning": "#ffc107",
+          "info": "#17a2b8",
+          "light": "#f8f9fa",
+          "dark": "#343a40"
+        },
+        "font": {
+          "family": "Arial",
+          "size": 11,
+          "weight": "normal"
+        },
+        "settings": {
+          "TButton": {
+            "configure": {
+              "font": ["Arial", 11, "bold"],
+              "padding": [8, 4],
+              "borderwidth": 1,
+              "relief": "flat"
+            }
+          },
+          "TLabel": {
+            "configure": {
+              "font": ["Arial", 11],
+              "padding": [2, 2]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

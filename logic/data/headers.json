@@ -1,0 +1,319 @@
+{
+  "Brake": {
+    "Core": [
+      "CarId",
+      "Stage",
+      "BrakingPower"
+    ],
+    "Pricing": [
+      "Price"
+    ],
+    "Unknown": [
+      "FrontBrakesUnknown",
+      "RearBrakesUnknown"
+    ]
+  },
+
+  "BrakeController": {
+    "Core": [
+      "CarId",
+      "Stage",
+      "MaxFrontBias",
+      "DefaultBias",
+      "MaxRearBias"
+    ],
+    "Pricing": [
+      "Price"
+    ],
+    "Unknown": [
+      "Unknown",
+      "Unknown2",
+      "Unknown3",
+      "Unknown4"
+    ]
+  },
+
+  "Car": {
+    "Identifiers": [
+      "CarId",
+      "ManufacturerID"
+    ],
+    "InstalledParts": [
+      "Brake",
+      "BrakeController",
+      "Steer",
+      "Chassis",
+      "Lightweight",
+      "RacingModify",
+      "Engine",
+      "PortPolish",
+      "EngineBalance",
+      "Displacement",
+      "Computer",
+      "NATune",
+      "TurbineKit",
+      "Drivetrain",
+      "Flywheel",
+      "Clutch",
+      "PropellerShaft",
+      "LSD",
+      "Gear",
+      "Suspension",
+      "Intercooler",
+      "Muffler",
+      "TiresFront",
+      "TiresRear"
+    ],
+    "Electronics": [
+      "ActiveStabilityControl",
+      "TractionControlSystem"
+    ],
+    "Meta": [
+      "RimsCode3",
+      "HasAllTiresBought",
+      "Price"
+    ],
+    "Unknown": [
+      "Unknown"
+    ]
+  },
+
+  "Chassis": {
+    "Core": [
+      "CarId",
+      "FrontWeightDistribution",
+      "FrontGrip",
+      "RearGrip",
+      "Weight"
+    ],
+    "Dimensions": [
+      "Length",
+      "Height",
+      "Wheelbase"
+    ],
+    "Resistance": [
+      "TurningResistance",
+      "PitchResistance",
+      "RollResistance"
+    ],
+    "Unknown": [
+      "Unknown2",
+      "Unknown8"
+    ]
+  },
+
+  "Clutch": {
+    "Core": [
+      "CarId",
+      "Stage",
+      "RPMDropRate"
+    ],
+    "Inertia": [
+      "InertiaDisengaged",
+      "InertiaEngaged",
+      "InertialWeight",
+      "InertiaBraking"
+    ],
+    "Pricing": [
+      "Price"
+    ],
+    "Unknown": [
+      "Unknown1",
+      "Unknown2"
+    ]
+  },
+
+  "Computer": {
+    "Core": [
+      "CarId",
+      "Stage",
+      "PowerbandScaling",
+      "RPMIncrease",
+      "PowerMultiplier"
+    ],
+    "Pricing": [
+      "Price"
+    ]
+  },
+
+  "Displacement": {
+    "Core": [
+      "CarId",
+      "Stage",
+      "PowerbandScaling",
+      "RPMIncrease",
+      "PowerMultiplier"
+    ],
+    "Pricing": [
+      "Price"
+    ]
+  },
+
+  "Drivetrain": {
+    "Core": [
+      "CarId",
+      "DrivetrainType",
+      "AWDBehaviour"
+    ],
+    "Defaults": [
+      "DefaultClutchRPMDropRate",
+      "DefaultClutchInertiaEngaged",
+      "DefaultClutchInertialWeight",
+      "DefaultClutchInertiaDisengaged"
+    ],
+    "Inertia": [
+      "FrontDriveInertia",
+      "RearDriveInertia"
+    ],
+    "Unknown": [
+      "Unknown",
+      "Unknown2",
+      "Unknown3",
+      "Unknown4"
+    ]
+  },
+
+  "Engine": {
+    "Identification": [
+      "CarId",
+      "LayoutName",
+      "ValvetrainName",
+      "Aspiration",
+      "SoundFile"
+    ],
+    "Power": [
+      "Displacement",
+      "DisplayedPower",
+      "MaxPowerRPM",
+      "DisplayedTorque",
+      "MaxTorqueRPMName",
+      "PowerMultiplier"
+    ],
+    "RPM": [
+      "IdleRPM",
+      "ClutchReleaseRPM",
+      "MaxRPM",
+      "RedlineRPM"
+    ],
+    "TorqueCurves": [
+      "TorqueCurve1",
+      "TorqueCurve2",
+      "TorqueCurve3",
+      "TorqueCurve4",
+      "TorqueCurve5",
+      "TorqueCurve6",
+      "TorqueCurve7",
+      "TorqueCurve8",
+      "TorqueCurve9",
+      "TorqueCurve10",
+      "TorqueCurve11",
+      "TorqueCurve12",
+      "TorqueCurve13",
+      "TorqueCurve14",
+      "TorqueCurve15",
+      "TorqueCurve16"
+    ],
+    "TorqueCurveRPM": [
+      "TorqueCurveRPM1",
+      "TorqueCurveRPM2",
+      "TorqueCurveRPM3",
+      "TorqueCurveRPM4",
+      "TorqueCurveRPM5",
+      "TorqueCurveRPM6",
+      "TorqueCurveRPM7",
+      "TorqueCurveRPM8",
+      "TorqueCurveRPM9",
+      "TorqueCurveRPM10",
+      "TorqueCurveRPM11",
+      "TorqueCurveRPM12",
+      "TorqueCurveRPM13",
+      "TorqueCurveRPM14",
+      "TorqueCurveRPM15",
+      "TorqueCurveRPM16"
+    ],
+    "Meta": [
+      "TorqueCurvePoints"
+    ]
+  },
+
+  "Suspension": {
+    "Core": [
+      "CarId",
+      "Stage"
+    ],
+    "Camber": [
+      "MinCamberFront",
+      "MaxCamberFront",
+      "DefaultCamberFront",
+      "MinCamberRear",
+      "MaxCamberRear",
+      "DefaultCamberRear"
+    ],
+    "Toe": [
+      "MinToeFront",
+      "MaxToeFront",
+      "MinToeRear",
+      "MaxToeRear"
+    ],
+    "RideHeight": [
+      "MinHeightFront",
+      "MaxHeightFront",
+      "DefaultHeightFront",
+      "MinHeightRear",
+      "MaxHeightRear",
+      "DefaultHeightRear"
+    ],
+    "Springs": [
+      "MinSpringRateFront",
+      "MaxSpringRateFront",
+      "DefaultSpringRateFront",
+      "MinSpringRateRear",
+      "MaxSpringRateRear",
+      "DefaultSpringRateRear"
+    ],
+    "Damping": [
+      "DampingFront",
+      "DampingRear",
+      "TravelFront",
+      "TravelRear"
+    ],
+    "Stabilizers": [
+      "MaxStabiliserFront",
+      "DefaultStabiliserFront",
+      "MaxStabiliserRear",
+      "DefaultStabiliserRear"
+    ],
+    "Pricing": [
+      "Price"
+    ],
+    "Unknown": [
+      "Unknown7",
+      "Unknown8",
+      "Unknown9",
+      "Unknown10",
+      "Unknown11",
+      "Unknown12",
+      "Unknown13",
+      "Unknown14",
+      "Unknown15",
+      "Unknown16",
+      "Unknown17",
+      "Unknown18",
+      "Unknown19",
+      "Unknown20",
+      "Unknown21",
+      "Unknown22",
+      "Unknown23",
+      "Unknown24",
+      "Unknown25",
+      "Unknown26",
+      "Unknown27",
+      "Unknown28",
+      "Unknown29",
+      "Unknown30",
+      "Unknown31",
+      "Unknown32",
+      "Unknown33"
+    ]
+  }
+}

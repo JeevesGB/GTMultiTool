@@ -1,0 +1,3728 @@
+[
+  {
+    "CarId": "CarId",
+    "NameFirstPart": "NameFirstPart",
+    "NameSecondPart": "NameSecondPart",
+    "Year": "Year"
+  },
+  {
+    "CarId": "a-a7r",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "A-spec LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "a-emn",
+    "NameFirstPart": "Mazda Demio",
+    "NameSecondPart": "A-spec(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "a222n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "GT-Turbo(J) '83",
+    "Year": "83"
+  },
+  {
+    "CarId": "a26sn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "1.6 S Package(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "a28bn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RB(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "a28rn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type R(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "a28sn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RS(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "a2aan",
+    "NameFirstPart": "Mazda AZ-1",
+    "NameSecondPart": "A-spec(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "a2abn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "B Spec(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "a2azn",
+    "NameFirstPart": "Mazda AZ-1",
+    "NameSecondPart": "(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "a2bgn",
+    "NameFirstPart": "Mazda Protegé",
+    "NameSecondPart": "GT-R(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "a2bin",
+    "NameFirstPart": "Mazda Protegé",
+    "NameSecondPart": "4Door Sedan(J) '89",
+    "Year": "89"
+  },
+  {
+    "CarId": "a2bsn",
+    "NameFirstPart": "Mazda Protegé",
+    "NameSecondPart": "GT-X(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "a2gcn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "GT-C(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "a2gln",
+    "NameFirstPart": "Demio",
+    "NameSecondPart": "GL-X(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "a2gsn",
+    "NameFirstPart": "Demio",
+    "NameSecondPart": "GL-X Special(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "a2l7r",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "GT-C LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "a2mkr",
+    "NameFirstPart": "Amemiya RX-7",
+    "NameSecondPart": "(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "a2ran",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "A Spec(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "a2rbn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RB(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "a2rcn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "C Spec(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "a2rrn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "RS-R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "a2rsn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RS(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "a2rzn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RZ(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "a2spn",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Cabriolet(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "a2swn",
+    "NameFirstPart": "Mazda 323F",
+    "NameSecondPart": "S-Wagon(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "a2vsn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "1.8 VS(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "acoen",
+    "NameFirstPart": "Mazda Cosmo",
+    "NameSecondPart": "Type-E(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "acosn",
+    "NameFirstPart": "Mazda Cosmo",
+    "NameSecondPart": "Type-S(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "ademn",
+    "NameFirstPart": "Demio",
+    "NameSecondPart": "GL-X(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "adgln",
+    "NameFirstPart": "Demio",
+    "NameSecondPart": "GL(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "adlxn",
+    "NameFirstPart": "Demio",
+    "NameSecondPart": "LX G Package(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "afa7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "A-spec(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "afb7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RB(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "afc7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Infini III(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "afd7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type RZ(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "afn7r",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "afo7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Type R(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "afr7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "GT-X(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "afx7n",
+    "NameFirstPart": "Mazda RX-7",
+    "NameSecondPart": "Touring X(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "altsn",
+    "NameFirstPart": "Mazda 323F",
+    "NameSecondPart": "Coupe Type-R(J)'93",
+    "Year": "93"
+  },
+  {
+    "CarId": "aminn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "(J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "amisn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "S-Special(J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "amivn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "V-Special(J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "an16n",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "(J) '89",
+    "Year": "89"
+  },
+  {
+    "CarId": "arodn",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "1.8 RS(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "as16n",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "S-Special(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "av16n",
+    "NameFirstPart": "MX-5 Miata",
+    "NameSecondPart": "V-Special(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "bistn",
+    "NameFirstPart": "Storm V12",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bj15n",
+    "NameFirstPart": "XJR",
+    "NameSecondPart": "XJR Vehicle",
+    "Year": "0"
+  },
+  {
+    "CarId": "bj22n",
+    "NameFirstPart": "XJ220",
+    "NameSecondPart": "GT Race Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "bjjrr",
+    "NameFirstPart": "XJR15",
+    "NameSecondPart": "GT Race Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "bjk8n",
+    "NameFirstPart": "XK8",
+    "NameSecondPart": "Coupe",
+    "Year": "0"
+  },
+  {
+    "CarId": "bjkrn",
+    "NameFirstPart": "XKR",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bjxjn",
+    "NameFirstPart": "XJ",
+    "NameSecondPart": "Sport 3.2",
+    "Year": "0"
+  },
+  {
+    "CarId": "bmmgn",
+    "NameFirstPart": "MGF",
+    "NameSecondPart": "1.8i VVC",
+    "Year": "0"
+  },
+  {
+    "CarId": "brm1r",
+    "NameFirstPart": "MiniCooperMK1",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "brmcn",
+    "NameFirstPart": "Mini Cooper",
+    "NameSecondPart": "1.3i",
+    "Year": "0"
+  },
+  {
+    "CarId": "brmin",
+    "NameFirstPart": "Mini 1.3",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bu41n",
+    "NameFirstPart": "RUF BTR TypeI",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bu42n",
+    "NameFirstPart": "RUF BTR TypeII",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bub2n",
+    "NameFirstPart": "RUF BTR2",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "buc1n",
+    "NameFirstPart": "RUF CTR",
+    "NameSecondPart": "Yellow Bird",
+    "Year": "0"
+  },
+  {
+    "CarId": "buc9n",
+    "NameFirstPart": "RUF CTR2",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bucrn",
+    "NameFirstPart": "RUF CTR2",
+    "NameSecondPart": "Sport",
+    "Year": "0"
+  },
+  {
+    "CarId": "buctn",
+    "NameFirstPart": "RUF RCT",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "buthn",
+    "NameFirstPart": "RUF Turbo-R",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "bvasn",
+    "NameFirstPart": "Astra",
+    "NameSecondPart": "SRi 2.0i 16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "bvcdr",
+    "NameFirstPart": "Calibra",
+    "NameSecondPart": "Touring Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "bvcon",
+    "NameFirstPart": "Corsa",
+    "NameSecondPart": "Sport 1.6i 16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "bviir",
+    "NameFirstPart": "Tigra",
+    "NameSecondPart": "Ice Race Car",
+    "Year": "98"
+  },
+  {
+    "CarId": "bvtin",
+    "NameFirstPart": "Tigra",
+    "NameSecondPart": "1.6i",
+    "Year": "0"
+  },
+  {
+    "CarId": "bvven",
+    "NameFirstPart": "Vectra",
+    "NameSecondPart": "GSi 2.5 V6",
+    "Year": "0"
+  },
+  {
+    "CarId": "c-30n",
+    "NameFirstPart": "Camaro",
+    "NameSecondPart": "Z28 30th Anniversary '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "c427n",
+    "NameFirstPart": "Corvette 427",
+    "NameSecondPart": "Stingray '69",
+    "Year": "69"
+  },
+  {
+    "CarId": "cc67n",
+    "NameFirstPart": "Corvette",
+    "NameSecondPart": "Sting Ray '67",
+    "Year": "67"
+  },
+  {
+    "CarId": "cc69n",
+    "NameFirstPart": "Camaro",
+    "NameSecondPart": "Z28 '69",
+    "Year": "69"
+  },
+  {
+    "CarId": "cc82n",
+    "NameFirstPart": "Corvette",
+    "NameSecondPart": "Stingray '82",
+    "Year": "82"
+  },
+  {
+    "CarId": "ccamn",
+    "NameFirstPart": "Camaro",
+    "NameSecondPart": "Z28 Coupe '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "ccrcn",
+    "NameFirstPart": "Corvette",
+    "NameSecondPart": "Coupe '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "ccrvn",
+    "NameFirstPart": "Corvette",
+    "NameSecondPart": "Grand Sport '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "ccssn",
+    "NameFirstPart": "Camaro",
+    "NameSecondPart": "SS '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "czr1n",
+    "NameFirstPart": "Corvette",
+    "NameSecondPart": "ZR-1 '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "d-pgr",
+    "NameFirstPart": "Viper",
+    "NameSecondPart": "GTS-R",
+    "Year": "0"
+  },
+  {
+    "CarId": "d-phr",
+    "NameFirstPart": "Concept Car",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "d2tvr",
+    "NameFirstPart": "STP Viper",
+    "NameSecondPart": "GT",
+    "Year": "99"
+  },
+  {
+    "CarId": "dcaen",
+    "NameFirstPart": "Avenger",
+    "NameSecondPart": "ES",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcc1n",
+    "NameFirstPart": "Charger",
+    "NameSecondPart": " '71",
+    "Year": "71"
+  },
+  {
+    "CarId": "dcchn",
+    "NameFirstPart": "Challenger",
+    "NameSecondPart": "",
+    "Year": "72"
+  },
+  {
+    "CarId": "dcien",
+    "NameFirstPart": "Intrepid",
+    "NameSecondPart": "ES",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcnan",
+    "NameFirstPart": "Neon",
+    "NameSecondPart": "ACR",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcnrn",
+    "NameFirstPart": "Neon",
+    "NameSecondPart": "R/T",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcphn",
+    "NameFirstPart": "Concept Car",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcptn",
+    "NameFirstPart": "Phaeton",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "dcsen",
+    "NameFirstPart": "Stratus",
+    "NameSecondPart": "ES",
+    "Year": "0"
+  },
+  {
+    "CarId": "dvp8r",
+    "NameFirstPart": "Viper",
+    "NameSecondPart": "GTS-R Team Oreca",
+    "Year": "99"
+  },
+  {
+    "CarId": "dvpgn",
+    "NameFirstPart": "Viper",
+    "NameSecondPart": "GTS",
+    "Year": "0"
+  },
+  {
+    "CarId": "dvprn",
+    "NameFirstPart": "Viper",
+    "NameSecondPart": "RT/10",
+    "Year": "0"
+  },
+  {
+    "CarId": "efcon",
+    "NameFirstPart": "Cougar",
+    "NameSecondPart": "2.5i 24V",
+    "Year": "0"
+  },
+  {
+    "CarId": "efe2n",
+    "NameFirstPart": "RS200",
+    "NameSecondPart": "Rally Car",
+    "Year": "86"
+  },
+  {
+    "CarId": "efesr",
+    "NameFirstPart": "Escort",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "effgn",
+    "NameFirstPart": "Focus",
+    "NameSecondPart": "Ghia 2.0i Zetec",
+    "Year": "0"
+  },
+  {
+    "CarId": "effwr",
+    "NameFirstPart": "Focus",
+    "NameSecondPart": "Rally Car",
+    "Year": "99"
+  },
+  {
+    "CarId": "effzn",
+    "NameFirstPart": "Focus",
+    "NameSecondPart": "1.8i Zetec",
+    "Year": "0"
+  },
+  {
+    "CarId": "efkan",
+    "NameFirstPart": "Ka",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "efmon",
+    "NameFirstPart": "Mondeo",
+    "NameSecondPart": "Ghia X 2.5i 24V",
+    "Year": "0"
+  },
+  {
+    "CarId": "efpun",
+    "NameFirstPart": "Puma",
+    "NameSecondPart": "1.7 Zetec-SE VCT",
+    "Year": "0"
+  },
+  {
+    "CarId": "fcr8r",
+    "NameFirstPart": "Xsara",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "fcs6n",
+    "NameFirstPart": "Saxo",
+    "NameSecondPart": "1.6i VTS",
+    "Year": "0"
+  },
+  {
+    "CarId": "fcx3n",
+    "NameFirstPart": "Xantia",
+    "NameSecondPart": "3.0i V6 Exclusive",
+    "Year": "0"
+  },
+  {
+    "CarId": "fcx8n",
+    "NameFirstPart": "Xsara",
+    "NameSecondPart": "1.8i 16V Exclusive",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp1rn",
+    "NameFirstPart": "106",
+    "NameSecondPart": "1.6 Rallye",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp1sn",
+    "NameFirstPart": "106",
+    "NameSecondPart": "1.6 S16",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp26n",
+    "NameFirstPart": "106",
+    "NameSecondPart": "1.6 S16",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp27n",
+    "NameFirstPart": "206",
+    "NameSecondPart": "S16",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp2wr",
+    "NameFirstPart": "206",
+    "NameSecondPart": "S16",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp2xr",
+    "NameFirstPart": "206",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp36n",
+    "NameFirstPart": "306",
+    "NameSecondPart": "S16",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp46n",
+    "NameFirstPart": "406",
+    "NameSecondPart": "3.0 V6 Coupe",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp4tn",
+    "NameFirstPart": "406",
+    "NameSecondPart": "Sedan",
+    "Year": "0"
+  },
+  {
+    "CarId": "fp4un",
+    "NameFirstPart": "406",
+    "NameSecondPart": "Sedan",
+    "Year": "0"
+  },
+  {
+    "CarId": "frc2n",
+    "NameFirstPart": "Clio",
+    "NameSecondPart": "16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "frcsn",
+    "NameFirstPart": "Clio Sport V6",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "frf1n",
+    "NameFirstPart": "Espace F1",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "frl6n",
+    "NameFirstPart": "Laguna",
+    "NameSecondPart": "V6",
+    "Year": "0"
+  },
+  {
+    "CarId": "frmgn",
+    "NameFirstPart": "Megane",
+    "NameSecondPart": "2.0 16V Coupe",
+    "Year": "0"
+  },
+  {
+    "CarId": "frtwn",
+    "NameFirstPart": "Twingo EV",
+    "NameSecondPart": "",
+    "Year": "96"
+  },
+  {
+    "CarId": "fv30n",
+    "NameFirstPart": "Atlantique",
+    "NameSecondPart": "300",
+    "Year": "0"
+  },
+  {
+    "CarId": "fv4gn",
+    "NameFirstPart": "Atlantique",
+    "NameSecondPart": "400GT",
+    "Year": "0"
+  },
+  {
+    "CarId": "fv60r",
+    "NameFirstPart": "Atlantique",
+    "NameSecondPart": "600 LM ",
+    "Year": "95"
+  },
+  {
+    "CarId": "gaa3n",
+    "NameFirstPart": "A3",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gaa4n",
+    "NameFirstPart": "A4",
+    "NameSecondPart": "2.8 quattro",
+    "Year": "0"
+  },
+  {
+    "CarId": "gas3n",
+    "NameFirstPart": "S3",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gas4n",
+    "NameFirstPart": "S4",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gatlr",
+    "NameFirstPart": "TT",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "gattn",
+    "NameFirstPart": "TT",
+    "NameSecondPart": "1.8T quattro",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb0cn",
+    "NameFirstPart": "320Ci",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb28n",
+    "NameFirstPart": "328i",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb2cn",
+    "NameFirstPart": "323ti",
+    "NameSecondPart": "Compact",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb52n",
+    "NameFirstPart": "528i",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb74n",
+    "NameFirstPart": "740i",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gb84n",
+    "NameFirstPart": "840Ci",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gbc3n",
+    "NameFirstPart": "323Ci",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gbc8n",
+    "NameFirstPart": "328Ci",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gm16n",
+    "NameFirstPart": "A160",
+    "NameSecondPart": "Avantgarde",
+    "Year": "0"
+  },
+  {
+    "CarId": "gm20n",
+    "NameFirstPart": "CLK",
+    "NameSecondPart": "200 Sport",
+    "Year": "0"
+  },
+  {
+    "CarId": "gm32n",
+    "NameFirstPart": "CLK",
+    "NameSecondPart": "320 Sport",
+    "Year": "0"
+  },
+  {
+    "CarId": "gmc4n",
+    "NameFirstPart": "AMG C 43",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gmd2r",
+    "NameFirstPart": "-",
+    "NameSecondPart": "-",
+    "Year": "0"
+  },
+  {
+    "CarId": "gme5n",
+    "NameFirstPart": "AMG E 55",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "gmsln",
+    "NameFirstPart": "SLK",
+    "NameSecondPart": "230 Kompressor",
+    "Year": "0"
+  },
+  {
+    "CarId": "goasn",
+    "NameFirstPart": "Astra",
+    "NameSecondPart": "SRi 2.0i 16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "gocdr",
+    "NameFirstPart": "Calibra",
+    "NameSecondPart": "Touring Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "gocon",
+    "NameFirstPart": "Corsa",
+    "NameSecondPart": "Sport 1.6i 16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "goiir",
+    "NameFirstPart": "Tigra",
+    "NameSecondPart": "Ice Race Car",
+    "Year": "98"
+  },
+  {
+    "CarId": "gotin",
+    "NameFirstPart": "Tigra",
+    "NameSecondPart": "1.6i",
+    "Year": "0"
+  },
+  {
+    "CarId": "goven",
+    "NameFirstPart": "Vectra",
+    "NameSecondPart": "GSi 2.5 V6",
+    "Year": "0"
+  },
+  {
+    "CarId": "gv45n",
+    "NameFirstPart": "Golf IV",
+    "NameSecondPart": "2.3 V5",
+    "Year": "0"
+  },
+  {
+    "CarId": "gv46n",
+    "NameFirstPart": "Golf IV",
+    "NameSecondPart": "V6",
+    "Year": "0"
+  },
+  {
+    "CarId": "gv48n",
+    "NameFirstPart": "Golf IV",
+    "NameSecondPart": "GTI 1.8T",
+    "Year": "0"
+  },
+  {
+    "CarId": "gv4gn",
+    "NameFirstPart": "Golf IV",
+    "NameSecondPart": "GTI",
+    "Year": "0"
+  },
+  {
+    "CarId": "gvbgr",
+    "NameFirstPart": "New Beetle",
+    "NameSecondPart": "GT",
+    "Year": "0"
+  },
+  {
+    "CarId": "gvlun",
+    "NameFirstPart": "Lupo",
+    "NameSecondPart": "1.4",
+    "Year": "0"
+  },
+  {
+    "CarId": "gvnbn",
+    "NameFirstPart": "New Beetle",
+    "NameSecondPart": "GLS 2.0L",
+    "Year": "0"
+  },
+  {
+    "CarId": "gvp6n",
+    "NameFirstPart": "-",
+    "NameSecondPart": "-",
+    "Year": "0"
+  },
+  {
+    "CarId": "h-err",
+    "NameFirstPart": "del Sol",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "h28cn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "SiR-T(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h28wn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "Wagon SiR(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2a0n",
+    "NameFirstPart": "Acura NSX",
+    "NameSecondPart": " '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "h2a2n",
+    "NameFirstPart": "Acura NSX",
+    "NameSecondPart": " '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "h2acn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "SiR-T(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "h2ain",
+    "NameFirstPart": "Acura Integra",
+    "NameSecondPart": "GS-R",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2arn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "Type-R",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2awn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "Wagon 2300VTL(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "h2ben",
+    "NameFirstPart": "Beat",
+    "NameSecondPart": "(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "h2bfn",
+    "NameFirstPart": "Beat",
+    "NameSecondPart": "ver.F(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "h2bzn",
+    "NameFirstPart": "Beat",
+    "NameSecondPart": "ver.Z(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "h2cfn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "Sedan",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2cnr",
+    "NameFirstPart": "Mugen NSX",
+    "NameSecondPart": "GT(J)",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2crn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "Type R(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2csn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "3 Door Si",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2ign",
+    "NameFirstPart": "Integra",
+    "NameSecondPart": "SiR-G",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2irn",
+    "NameFirstPart": "Integra",
+    "NameSecondPart": "Type R 98 spec",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2l2r",
+    "NameFirstPart": "S2000",
+    "NameSecondPart": "GT1",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2l8n",
+    "NameFirstPart": "Life",
+    "NameSecondPart": "T(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2lin",
+    "NameFirstPart": "Life",
+    "NameSecondPart": "T (J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "h2lon",
+    "NameFirstPart": "Logo",
+    "NameSecondPart": "TS(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2m2n",
+    "NameFirstPart": "Mugen CR-X II",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2man",
+    "NameFirstPart": "Mugen Accord",
+    "NameSecondPart": "SIR-T(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mbn",
+    "NameFirstPart": "Mugen Beat",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mcn",
+    "NameFirstPart": "Mugen Civic",
+    "NameSecondPart": "Type-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mdn",
+    "NameFirstPart": "Mugen CR-X III",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mfn",
+    "NameFirstPart": "Mugen Ferio",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2min",
+    "NameFirstPart": "Mugen Integra",
+    "NameSecondPart": "Type-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mpn",
+    "NameFirstPart": "Mugen Prelude",
+    "NameSecondPart": "Type-S(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2mwn",
+    "NameFirstPart": "Mugen Accord",
+    "NameSecondPart": "Wagon(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2n1r",
+    "NameFirstPart": "Mobil 1 NSX",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "h2ncr",
+    "NameFirstPart": "Mugen NSX",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "h2nrr",
+    "NameFirstPart": "Raybrig NSX",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "h2ntr",
+    "NameFirstPart": "Takata NSX",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "h2prn",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2psn",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": "SiR S spec(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "h2s2n",
+    "NameFirstPart": "S2000",
+    "NameSecondPart": "",
+    "Year": "99"
+  },
+  {
+    "CarId": "h2scn",
+    "NameFirstPart": "Spoon Civic",
+    "NameSecondPart": "Type-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2sin",
+    "NameFirstPart": "Spoon Integra",
+    "NameSecondPart": "Type-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2ssn",
+    "NameFirstPart": "Spoon S2000",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "h2ztn",
+    "NameFirstPart": "Z",
+    "NameSecondPart": "Turbo(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "hacsn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "Sedan '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "hacwn",
+    "NameFirstPart": "Accord",
+    "NameSecondPart": "Wagon '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "hairn",
+    "NameFirstPart": "Acura Integra",
+    "NameSecondPart": "Type R",
+    "Year": "98"
+  },
+  {
+    "CarId": "hcfnn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "Sedan '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "hcfon",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "Sedan '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hcrxn",
+    "NameFirstPart": "Civic CRX",
+    "NameSecondPart": "Si '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "hcvnn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "3 Door '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "hcvon",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "3 Door Si '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hcvrn",
+    "NameFirstPart": "Civic",
+    "NameSecondPart": "Type R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "hdegn",
+    "NameFirstPart": "del Sol",
+    "NameSecondPart": "VGi(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "hdeln",
+    "NameFirstPart": "del Sol",
+    "NameSecondPart": "S '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hdern",
+    "NameFirstPart": "del Sol",
+    "NameSecondPart": "Si '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hdesn",
+    "NameFirstPart": "del Sol",
+    "NameSecondPart": "SiR(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "hiarn",
+    "NameFirstPart": "Acura Integra",
+    "NameSecondPart": "Type-R '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "hiasn",
+    "NameFirstPart": "Acura Integra",
+    "NameSecondPart": "GS-R '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "hinrn",
+    "NameFirstPart": "Integra",
+    "NameSecondPart": "Type R",
+    "Year": "0"
+  },
+  {
+    "CarId": "hinsn",
+    "NameFirstPart": "Integra",
+    "NameSecondPart": "SiR-G",
+    "Year": "0"
+  },
+  {
+    "CarId": "hnann",
+    "NameFirstPart": "Acura NSX",
+    "NameSecondPart": "Type S Zero(J)",
+    "Year": "97"
+  },
+  {
+    "CarId": "hnarn",
+    "NameFirstPart": "Acura NSX",
+    "NameSecondPart": " '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hnasn",
+    "NameFirstPart": "Acura NSX",
+    "NameSecondPart": "Type S(J)",
+    "Year": "97"
+  },
+  {
+    "CarId": "hnsbn",
+    "NameFirstPart": "NSX ",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "hnsnn",
+    "NameFirstPart": "NSX ",
+    "NameSecondPart": "Type S Zero",
+    "Year": "0"
+  },
+  {
+    "CarId": "hnsrn",
+    "NameFirstPart": "NSX",
+    "NameSecondPart": "Type R '92",
+    "Year": "0"
+  },
+  {
+    "CarId": "hnssn",
+    "NameFirstPart": "NSX ",
+    "NameSecondPart": "Type S",
+    "Year": "0"
+  },
+  {
+    "CarId": "hnsxn",
+    "NameFirstPart": "NSX",
+    "NameSecondPart": " '90",
+    "Year": "0"
+  },
+  {
+    "CarId": "hpnen",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": " '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "hpnvn",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": "Type-SH",
+    "Year": "96"
+  },
+  {
+    "CarId": "hpren",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": "Si '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "hprvn",
+    "NameFirstPart": "Prelude",
+    "NameSecondPart": "VTEC '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "ia45n",
+    "NameFirstPart": "145",
+    "NameSecondPart": "2.0 Cloverleaf",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia54n",
+    "NameFirstPart": "156",
+    "NameSecondPart": "2.5 V6 24V",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia55n",
+    "NameFirstPart": "155",
+    "NameSecondPart": "2.0 TS 16V",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia56n",
+    "NameFirstPart": "156",
+    "NameSecondPart": "2.0 TS 16V",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia5dr",
+    "NameFirstPart": "155",
+    "NameSecondPart": "Touring Car",
+    "Year": "95"
+  },
+  {
+    "CarId": "ia63n",
+    "NameFirstPart": "166",
+    "NameSecondPart": "3.0 V6 24V",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia65n",
+    "NameFirstPart": "166",
+    "NameSecondPart": "2.5 V6 24V",
+    "Year": "98"
+  },
+  {
+    "CarId": "ia66n",
+    "NameFirstPart": "166",
+    "NameSecondPart": "2.0 TS 16V",
+    "Year": "98"
+  },
+  {
+    "CarId": "iag4n",
+    "NameFirstPart": "GTV",
+    "NameSecondPart": "3.0 V6 24V",
+    "Year": "98"
+  },
+  {
+    "CarId": "iag6n",
+    "NameFirstPart": "GTV",
+    "NameSecondPart": "2.0 TS 16V",
+    "Year": "98"
+  },
+  {
+    "CarId": "iaspn",
+    "NameFirstPart": "Spider",
+    "NameSecondPart": "2.0 TS",
+    "Year": "98"
+  },
+  {
+    "CarId": "ii50n",
+    "NameFirstPart": "500",
+    "NameSecondPart": "Sporting",
+    "Year": "98"
+  },
+  {
+    "CarId": "ii60n",
+    "NameFirstPart": "600(Seicento)",
+    "NameSecondPart": "Sporting",
+    "Year": "0"
+  },
+  {
+    "CarId": "iiban",
+    "NameFirstPart": "Barchetta",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "iictn",
+    "NameFirstPart": "Coupe",
+    "NameSecondPart": "2.0 20V Turbo",
+    "Year": "0"
+  },
+  {
+    "CarId": "iio5n",
+    "NameFirstPart": "500R",
+    "NameSecondPart": "",
+    "Year": "75"
+  },
+  {
+    "CarId": "iipun",
+    "NameFirstPart": "Punto",
+    "NameSecondPart": "GT",
+    "Year": "0"
+  },
+  {
+    "CarId": "ildcn",
+    "NameFirstPart": "Delta",
+    "NameSecondPart": "HF Integrale Collezione",
+    "Year": "0"
+  },
+  {
+    "CarId": "ilden",
+    "NameFirstPart": "Delta",
+    "NameSecondPart": "HF Integrale",
+    "Year": "0"
+  },
+  {
+    "CarId": "ildvn",
+    "NameFirstPart": "Delta",
+    "NameSecondPart": "HF Integrale Evoluzione",
+    "Year": "0"
+  },
+  {
+    "CarId": "ils4r",
+    "NameFirstPart": "Delta",
+    "NameSecondPart": "S4",
+    "Year": "85"
+  },
+  {
+    "CarId": "ilstn",
+    "NameFirstPart": "Stratos",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ily3n",
+    "NameFirstPart": "Y",
+    "NameSecondPart": "1.2 16V",
+    "Year": "0"
+  },
+  {
+    "CarId": "io11n",
+    "NameFirstPart": "Elise",
+    "NameSecondPart": "111S",
+    "Year": "0"
+  },
+  {
+    "CarId": "io13n",
+    "NameFirstPart": "Elise",
+    "NameSecondPart": "135",
+    "Year": "0"
+  },
+  {
+    "CarId": "io19n",
+    "NameFirstPart": "Elise",
+    "NameSecondPart": "190",
+    "Year": "0"
+  },
+  {
+    "CarId": "ioe9n",
+    "NameFirstPart": "Elan",
+    "NameSecondPart": "S2 '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "ioeln",
+    "NameFirstPart": "Elise",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ioesn",
+    "NameFirstPart": "Esprit",
+    "NameSecondPart": "Sport 350",
+    "Year": "0"
+  },
+  {
+    "CarId": "ioeun",
+    "NameFirstPart": "Europa",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "iogtn",
+    "NameFirstPart": "Esprit",
+    "NameSecondPart": "V8 GT",
+    "Year": "0"
+  },
+  {
+    "CarId": "ioisr",
+    "NameFirstPart": "Esprit",
+    "NameSecondPart": "GT1",
+    "Year": "0"
+  },
+  {
+    "CarId": "iolln",
+    "NameFirstPart": "Elise",
+    "NameSecondPart": "GT1",
+    "Year": "0"
+  },
+  {
+    "CarId": "iomsn",
+    "NameFirstPart": "MotorsportElise",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ios2n",
+    "NameFirstPart": "Elan",
+    "NameSecondPart": "S2 '64",
+    "Year": "64"
+  },
+  {
+    "CarId": "ios4n",
+    "NameFirstPart": "Elan",
+    "NameSecondPart": "S4 Sprint '71",
+    "Year": "71"
+  },
+  {
+    "CarId": "iosen",
+    "NameFirstPart": "Esprit",
+    "NameSecondPart": "V8 SE",
+    "Year": "0"
+  },
+  {
+    "CarId": "k213n",
+    "NameFirstPart": "m13(StageII)",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "k231n",
+    "NameFirstPart": "M30",
+    "NameSecondPart": "(GTS,J) '87",
+    "Year": "87"
+  },
+  {
+    "CarId": "k232n",
+    "NameFirstPart": "M30",
+    "NameSecondPart": "(GTS-R,J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "k233n",
+    "NameFirstPart": "Tommykaira R",
+    "NameSecondPart": "(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "k234n",
+    "NameFirstPart": "Tommykaira R",
+    "NameSecondPart": "(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "k2z2n",
+    "NameFirstPart": "ZZII",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "k2z3n",
+    "NameFirstPart": "ZZIII",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "k2zzn",
+    "NameFirstPart": "ZZ-S",
+    "NameSecondPart": "Coupe(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "ld6cn",
+    "NameFirstPart": "DB6",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ld7cn",
+    "NameFirstPart": "DB7",
+    "NameSecondPart": "Coupe",
+    "Year": "0"
+  },
+  {
+    "CarId": "ld7vn",
+    "NameFirstPart": "DB7",
+    "NameSecondPart": "Volante",
+    "Year": "0"
+  },
+  {
+    "CarId": "ldvan",
+    "NameFirstPart": "V8 Vantage",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "m-tor",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "m2a5r",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution V Rally Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2agn",
+    "NameFirstPart": "Galant",
+    "NameSecondPart": "VR-G(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2aln",
+    "NameFirstPart": "Galant",
+    "NameSecondPart": "VR-4(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2g2n",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution II(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "m2g4n",
+    "NameFirstPart": "Galant",
+    "NameSecondPart": "Super VR4(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2g5n",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution V GSR (J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2g6n",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution VI GSR (J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2l4n",
+    "NameFirstPart": "Legnum",
+    "NameSecondPart": "Super VR4(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2lgn",
+    "NameFirstPart": "Legnum",
+    "NameSecondPart": "VR-4 type-S(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "m2lsn",
+    "NameFirstPart": "Legnum",
+    "NameSecondPart": "ST(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "m2m5n",
+    "NameFirstPart": "Mine's Lancer",
+    "NameSecondPart": "Evolution V(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "m2m7n",
+    "NameFirstPart": "Mirage",
+    "NameSecondPart": "Asti ZR(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "m2m8n",
+    "NameFirstPart": "Minica",
+    "NameSecondPart": "Pj(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2man",
+    "NameFirstPart": "Mirage",
+    "NameSecondPart": "Asti RX-R(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2min",
+    "NameFirstPart": "Mirage",
+    "NameSecondPart": "Cyborg-ZR(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "m2mon",
+    "NameFirstPart": "Minica",
+    "NameSecondPart": "Dangan ZZ(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "m2mrn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "Twin Turbo MR(J)",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2ngn",
+    "NameFirstPart": "Legnum",
+    "NameSecondPart": "VR-4 type-S(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2nsn",
+    "NameFirstPart": "Legnum",
+    "NameSecondPart": "ST(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2p8n",
+    "NameFirstPart": "Pajero Mini",
+    "NameSecondPart": "Sport(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2pjn",
+    "NameFirstPart": "Pajero Mini",
+    "NameSecondPart": "VR-II(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "m2r5n",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution V RS (J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2r6n",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution VI RS (J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2srn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "SL",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2tfr",
+    "NameFirstPart": "Taeivon FTO",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2tlr",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "LM Edition '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2ttn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "VR-4  ",
+    "Year": "99"
+  },
+  {
+    "CarId": "m2w5r",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution V Rally Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "m2w6r",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "Evolution VI Rally Car '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "mecln",
+    "NameFirstPart": "Eclipse",
+    "NameSecondPart": "GS-T",
+    "Year": "97"
+  },
+  {
+    "CarId": "mftgn",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "GR(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "mftnn",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "GP Version R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "mfton",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "GPX(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "mftrn",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "GR(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "mftxn",
+    "NameFirstPart": "FTO",
+    "NameSecondPart": "GPX(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "mgagn",
+    "NameFirstPart": "Galant",
+    "NameSecondPart": "VR-G Touring(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "mgaln",
+    "NameFirstPart": "Galant",
+    "NameSecondPart": "VR-4(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "mgnon",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "SL",
+    "Year": "97"
+  },
+  {
+    "CarId": "mgntn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "VR-4 Turbo",
+    "Year": "97"
+  },
+  {
+    "CarId": "mgoon",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "mgotn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "VR-4   ",
+    "Year": "92"
+  },
+  {
+    "CarId": "mgtlr",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "mgtmn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "MR(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "mgton",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "SL",
+    "Year": "95"
+  },
+  {
+    "CarId": "mgttn",
+    "NameFirstPart": "3000GT",
+    "NameSecondPart": "VR-4 Turbo",
+    "Year": "95"
+  },
+  {
+    "CarId": "mlnnn",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "EvolutionIV GSR(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "mlnon",
+    "NameFirstPart": "Lancer",
+    "NameSecondPart": "EvolutionIII GSR(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "mmgon",
+    "NameFirstPart": "Mirage",
+    "NameSecondPart": "Cyborg R(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "mmgrn",
+    "NameFirstPart": "Mirage",
+    "NameSecondPart": "Asti RX(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "n-00n",
+    "NameFirstPart": "Nismo 400R",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n-18n",
+    "NameFirstPart": "Sileighty",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n180n",
+    "NameFirstPart": "240SX Fastback",
+    "NameSecondPart": "Type X(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "n18nn",
+    "NameFirstPart": "240SX Fastback",
+    "NameSecondPart": "Type X(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "n18sn",
+    "NameFirstPart": "240SX Fastback",
+    "NameSecondPart": "Type S(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "n230n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "2000 RS-X (DR30,J) '84",
+    "Year": "84"
+  },
+  {
+    "CarId": "n231n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GTS-R(R31,J) '87",
+    "Year": "87"
+  },
+  {
+    "CarId": "n234n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "25GT Turbo(R34,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n239r",
+    "NameFirstPart": "R390 GT1",
+    "NameSecondPart": "LM Race Car '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n23nn",
+    "NameFirstPart": "R390 GT1",
+    "NameSecondPart": "Road Car '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n23sr",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "Silhouette Foumula (R30)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n23zr",
+    "NameFirstPart": "Nissan 300ZX",
+    "NameSecondPart": "GT(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n240r",
+    "NameFirstPart": "R390 GT1",
+    "NameSecondPart": "LM Race Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n24nn",
+    "NameFirstPart": "R390 GT1",
+    "NameSecondPart": "Road Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n24pn",
+    "NameFirstPart": "Nismo 400R",
+    "NameSecondPart": "Preceiding Model(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n24rn",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(R34,J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n24vn",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R V-spec(R34,J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n24zn",
+    "NameFirstPart": "Datsun 240Z",
+    "NameSecondPart": "240ZG(HS30,J) '71",
+    "Year": "71"
+  },
+  {
+    "CarId": "n260n",
+    "NameFirstPart": "Stagea",
+    "NameSecondPart": "260RS Tuned by Nismo(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n270n",
+    "NameFirstPart": "Nismo 270R",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n271n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(KPGC10,J) '71",
+    "Year": "71"
+  },
+  {
+    "CarId": "n280n",
+    "NameFirstPart": "Skyline 280",
+    "NameSecondPart": "Type MR(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n284n",
+    "NameFirstPart": "Stagea",
+    "NameSecondPart": "25t RS Four V(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n28gn",
+    "NameFirstPart": "Stagea",
+    "NameSecondPart": "Autech Ver. 260RS (J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2cun",
+    "NameFirstPart": "Cube",
+    "NameSecondPart": "X(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2d3r",
+    "NameFirstPart": "R33 Drag GT-R",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2d8r",
+    "NameFirstPart": "Drag 180SX",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2dsr",
+    "NameFirstPart": "Daisin Silvia",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2g7r",
+    "NameFirstPart": "Zexel Skyline",
+    "NameSecondPart": "GT(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2gcr",
+    "NameFirstPart": "Calsonic GT-R",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2gkr",
+    "NameFirstPart": "Kure R33",
+    "NameSecondPart": "GT(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2gpr",
+    "NameFirstPart": "Pennzoil GT-R",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2gur",
+    "NameFirstPart": "Unisia GT-R",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2gzr",
+    "NameFirstPart": "Arta GT-R",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2ksn",
+    "NameFirstPart": "240SX",
+    "NameSecondPart": "K's Aero(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2m2n",
+    "NameFirstPart": "Mine's R32.5",
+    "NameSecondPart": "Skyline GT-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2m3n",
+    "NameFirstPart": "Mine's R33",
+    "NameSecondPart": "Skyline GT-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2m4n",
+    "NameFirstPart": "Mine's R34",
+    "NameSecondPart": "Skyline GT-R(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2man",
+    "NameFirstPart": "March",
+    "NameSecondPart": "G#(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2mtn",
+    "NameFirstPart": "March",
+    "NameSecondPart": "Super Turbo(J) '89",
+    "Year": "89"
+  },
+  {
+    "CarId": "n2p1n",
+    "NameFirstPart": "Pulsar Serie",
+    "NameSecondPart": "VZ-R N1(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2p2n",
+    "NameFirstPart": "Infiniti G20",
+    "NameSecondPart": "2.0Te-V(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2pvn",
+    "NameFirstPart": "Pulsar Serie",
+    "NameSecondPart": "VZ-R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2pwn",
+    "NameFirstPart": "Primera Wagon",
+    "NameSecondPart": "2.0G-V(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2r4n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R 4Door(R33,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2rnn",
+    "NameFirstPart": "GT-R",
+    "NameSecondPart": "4Door Tuned by Nismo(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "n2rtn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2by2 Twin Turbo(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2s4n",
+    "NameFirstPart": "Stagea",
+    "NameSecondPart": "RS Four V(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2sgn",
+    "NameFirstPart": "Stagea",
+    "NameSecondPart": "Autech Ver. 260RS (J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "n2skn",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Spec R(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2snn",
+    "NameFirstPart": "Sunny",
+    "NameSecondPart": "VZ-R(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2sqn",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Spec S(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2stn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2seater Twin Turbo(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2sxn",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Spec R Aero(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2syn",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Spec S Aero(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2xsr",
+    "NameFirstPart": "Zanavi Silvia",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "n2zrn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "Version R 2by2(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n2zsn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "Version S 2seater(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "n432n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GTS4(R32,J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nax3n",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2-seater",
+    "Year": "95"
+  },
+  {
+    "CarId": "naxsn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "Turbo",
+    "Year": "95"
+  },
+  {
+    "CarId": "naxvn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2+2 ",
+    "Year": "95"
+  },
+  {
+    "CarId": "nl33n",
+    "NameFirstPart": "NismoGT-R LM",
+    "NameSecondPart": "Road Car(R33,J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "nm32n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GTS25 Type S(R32,J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nn32n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R NISMO(R32,J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "nplon",
+    "NameFirstPart": "Pulsar",
+    "NameSecondPart": "GTi-R(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nprin",
+    "NameFirstPart": "Infiniti G20",
+    "NameSecondPart": "2.0Te(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "npron",
+    "NameFirstPart": "Tommykaira",
+    "NameSecondPart": "M20T4",
+    "Year": "91"
+  },
+  {
+    "CarId": "nq13n",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Q's 1800cc (J) '88",
+    "Year": "88"
+  },
+  {
+    "CarId": "nq14n",
+    "NameFirstPart": "240SX",
+    "NameSecondPart": "Q's (J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "nq15n",
+    "NameFirstPart": "240SX",
+    "NameSecondPart": "Q's Aero(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "nq23n",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "Q's 2000cc (J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nr02n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(R32,J) '89",
+    "Year": "89"
+  },
+  {
+    "CarId": "nr32n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(R32,J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nr33n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(R33,J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "nr34n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R(R33,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "ns13n",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "K's 1800cc (J) '88",
+    "Year": "88"
+  },
+  {
+    "CarId": "ns14n",
+    "NameFirstPart": "240SX",
+    "NameSecondPart": "K's (J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "ns15n",
+    "NameFirstPart": "240SX",
+    "NameSecondPart": "K's Aero(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "ns23n",
+    "NameFirstPart": "Silvia",
+    "NameSecondPart": "K's 2000cc (J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nt32n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GTS-t Type M(R32,J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "nt33n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GTS25t Type M(R33,J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "nv12n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R Vspec(R32,J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "nv22n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R Vspec II(R32,J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "nv33n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R Vspec(R33,J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "nv34n",
+    "NameFirstPart": "Skyline",
+    "NameSecondPart": "GT-R Vspec(R33,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "nzx2n",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2by2 Twin Turbo(J) '94",
+    "Year": "94"
+  },
+  {
+    "CarId": "nzx3n",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2-seater",
+    "Year": "95"
+  },
+  {
+    "CarId": "nzxsn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "Turbo",
+    "Year": "95"
+  },
+  {
+    "CarId": "nzxvn",
+    "NameFirstPart": "300ZX",
+    "NameSecondPart": "2+2 ",
+    "Year": "95"
+  },
+  {
+    "CarId": "q2m2n",
+    "NameFirstPart": "Move",
+    "NameSecondPart": "SR-XX(2WD,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "q2m4n",
+    "NameFirstPart": "Move",
+    "NameSecondPart": "SR-XX(4WD,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "q2m8n",
+    "NameFirstPart": "Move",
+    "NameSecondPart": "SR-XX(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2mcn",
+    "NameFirstPart": "Move Custom",
+    "NameSecondPart": "(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2min",
+    "NameFirstPart": "Midget II",
+    "NameSecondPart": "D-type(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "q2mon",
+    "NameFirstPart": "Mira",
+    "NameSecondPart": "TR-XX(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "q2mvn",
+    "NameFirstPart": "Move",
+    "NameSecondPart": "CX(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "q2o4n",
+    "NameFirstPart": "Opti",
+    "NameSecondPart": "Club Sport(4WD,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "q2oen",
+    "NameFirstPart": "Opti",
+    "NameSecondPart": "Aerodown Beex(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2opn",
+    "NameFirstPart": "Opti",
+    "NameSecondPart": "Club Sport(2WD,J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "q2s4n",
+    "NameFirstPart": "Storia",
+    "NameSecondPart": "CX(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2sgr",
+    "NameFirstPart": "Storia",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "q2stn",
+    "NameFirstPart": "Storia",
+    "NameSecondPart": "CX(2WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2ten",
+    "NameFirstPart": "Terios Kid",
+    "NameSecondPart": "Aerodown(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2trn",
+    "NameFirstPart": "Mira",
+    "NameSecondPart": "TR(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2txn",
+    "NameFirstPart": "Mira",
+    "NameSecondPart": "TX(4WD,J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "q2x4n",
+    "NameFirstPart": "Storia",
+    "NameSecondPart": "X4(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s222n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "22B STi Version(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s236n",
+    "NameFirstPart": "Subaru 360",
+    "NameSecondPart": "",
+    "Year": "69"
+  },
+  {
+    "CarId": "s2a6n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "typeRA STi Ver.VI(J)'99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2cir",
+    "NameFirstPart": "Cusco Impreza",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2fon",
+    "NameFirstPart": "Forester",
+    "NameSecondPart": "S/tb(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2i4n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan STi Ver.IV(J)'97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2i5n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan STi Ver.V(J)'98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2i6n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan STi Ver. VI(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2irr",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Rally Car(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2iwn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan(J)'97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2lbn",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Wagon GT-B(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2lgn",
+    "NameFirstPart": "Legacy B4",
+    "NameSecondPart": "RSK(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2lwn",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Wagon GT-B(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2nin",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan (J)'98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2nwn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon (J)'98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2pmn",
+    "NameFirstPart": "Pleo",
+    "NameSecondPart": "RM(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2psn",
+    "NameFirstPart": "Pleo",
+    "NameSecondPart": "RS(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2r4n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "typeR  STi Ver.IV(J)'97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2r5n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "typeR STi Ver.V(J)'98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2r6n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "typeR STi Ver.VI(J)'99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2v4n",
+    "NameFirstPart": "Vivio",
+    "NameSecondPart": "RX-RA(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2vin",
+    "NameFirstPart": "Vivio",
+    "NameSecondPart": "RX-R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2w4n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon STi Ver.IV(J)'97",
+    "Year": "97"
+  },
+  {
+    "CarId": "s2w5n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon STi Ver.V (J)'98",
+    "Year": "98"
+  },
+  {
+    "CarId": "s2w6n",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon STi Ver.VI (J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "s2wwn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon(J)'97",
+    "Year": "97"
+  },
+  {
+    "CarId": "sipan",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan WRX(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "sipbn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan STi versionIII(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "sipcn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon (J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "sipdn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon STi versionIII(J)'96",
+    "Year": "96"
+  },
+  {
+    "CarId": "siprn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "typeR STi Ver.(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "sipsn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan STi versionII(J)'95",
+    "Year": "95"
+  },
+  {
+    "CarId": "siptn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon STi versionII(J)'95",
+    "Year": "95"
+  },
+  {
+    "CarId": "sipwn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Wagon(J)'94",
+    "Year": "94"
+  },
+  {
+    "CarId": "sipxr",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "sipzn",
+    "NameFirstPart": "Impreza",
+    "NameSecondPart": "Sedan(J)'94",
+    "Year": "94"
+  },
+  {
+    "CarId": "slgan",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Wagon GT-B(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "slgbn",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Sedan RS(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "slgnn",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Sports RS(J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "slgwn",
+    "NameFirstPart": "Legacy",
+    "NameSecondPart": "Wagon GT(J) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "ssv4n",
+    "NameFirstPart": "SVX",
+    "NameSecondPart": "S4(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "ssvxn",
+    "NameFirstPart": "SVX",
+    "NameSecondPart": "Lsi '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "t-rdn",
+    "NameFirstPart": "TRD3000GT",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t211n",
+    "NameFirstPart": "MR2",
+    "NameSecondPart": "1600G-Limited(J) '86",
+    "Year": "86"
+  },
+  {
+    "CarId": "t22dn",
+    "NameFirstPart": "TRD2000GT",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t22gn",
+    "NameFirstPart": "2000GT",
+    "NameSecondPart": "GT '68",
+    "Year": "0"
+  },
+  {
+    "CarId": "t22hn",
+    "NameFirstPart": "2000GT",
+    "NameSecondPart": "GT '68",
+    "Year": "68"
+  },
+  {
+    "CarId": "t261n",
+    "NameFirstPart": "Starlet",
+    "NameSecondPart": "3 Door Turbo S(J) '82",
+    "Year": "82"
+  },
+  {
+    "CarId": "t271n",
+    "NameFirstPart": "Starlet",
+    "NameSecondPart": "3 Door Turbo S(J) '87",
+    "Year": "87"
+  },
+  {
+    "CarId": "t285n",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "GT-Four(J) '88",
+    "Year": "88"
+  },
+  {
+    "CarId": "t286r",
+    "NameFirstPart": "BP Trueno",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t291n",
+    "NameFirstPart": "Altezza",
+    "NameSecondPart": "RS200(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t292n",
+    "NameFirstPart": "Lexus IS",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "t29lr",
+    "NameFirstPart": "Altezza",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "t29nn",
+    "NameFirstPart": "Altezza",
+    "NameSecondPart": "280T(Tuned by Tom's,J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2a1n",
+    "NameFirstPart": "Aristo",
+    "NameSecondPart": "3.0V(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "t2a3n",
+    "NameFirstPart": "Aristo",
+    "NameSecondPart": "V300(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2c3n",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": " '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2c4n",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "GT-Four(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "t2can",
+    "NameFirstPart": "Caldina",
+    "NameSecondPart": "GT-T(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2cdn",
+    "NameFirstPart": "XYR",
+    "NameSecondPart": " '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2cen",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "Elegant Version(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2clr",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "Rally Car",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2cmn",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "Mecanical Version(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2con",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "GT-R(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "t2crn",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "GT-Four RC(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "t2cwr",
+    "NameFirstPart": "Corolla",
+    "NameSecondPart": "Rally Car '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2cxr",
+    "NameFirstPart": "Corolla",
+    "NameSecondPart": "Rally Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2cyn",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "SS-II(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2g1n",
+    "NameFirstPart": "GT-ONE",
+    "NameSecondPart": "Road Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2g8r",
+    "NameFirstPart": "GT-ONE",
+    "NameSecondPart": "Race Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2g9r",
+    "NameFirstPart": "GT-ONE",
+    "NameSecondPart": "Race Car '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2h8r",
+    "NameFirstPart": "GT-ONE",
+    "NameSecondPart": "Race Car '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2h9r",
+    "NameFirstPart": "GT-ONE",
+    "NameSecondPart": "Race Car '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2isn",
+    "NameFirstPart": "Lexus IS 200",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2lgn",
+    "NameFirstPart": "Lexus GS 400",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2lsn",
+    "NameFirstPart": "Lexus SC 400",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2lvn",
+    "NameFirstPart": "Levin",
+    "NameSecondPart": "BZR(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2m2n",
+    "NameFirstPart": "MR2",
+    "NameSecondPart": "GT-S(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2mgn",
+    "NameFirstPart": "MR2",
+    "NameSecondPart": "G-Limited(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2mmr",
+    "NameFirstPart": "Momo MR2",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2msn",
+    "NameFirstPart": "MR-S",
+    "NameSecondPart": "S Edition(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2mtn",
+    "NameFirstPart": "MR-S",
+    "NameSecondPart": "Show Version(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2o3n",
+    "NameFirstPart": "Lexus SC 300",
+    "NameSecondPart": "",
+    "Year": "96"
+  },
+  {
+    "CarId": "t2prn",
+    "NameFirstPart": "PRIUS",
+    "NameSecondPart": "(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2s3n",
+    "NameFirstPart": "Lexus GS 300",
+    "NameSecondPart": "",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2scr",
+    "NameFirstPart": "Castrol Supra",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2sdr",
+    "NameFirstPart": "Denso Supra",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2sor",
+    "NameFirstPart": "Cerumo Supra",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2spn",
+    "NameFirstPart": "MR Spider",
+    "NameSecondPart": "(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "t2srn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "SZ-R(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2ssn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "RZ(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "t2svn",
+    "NameFirstPart": "Starlet",
+    "NameSecondPart": "Glanza V(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2t1n",
+    "NameFirstPart": "Tom's T111",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2t2n",
+    "NameFirstPart": "Tom's T020",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2t8n",
+    "NameFirstPart": "Tom's Supra",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2tan",
+    "NameFirstPart": "Angel T01",
+    "NameSecondPart": "(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2trn",
+    "NameFirstPart": "Trueno",
+    "NameSecondPart": "BZR(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "t2vzn",
+    "NameFirstPart": "Vitz",
+    "NameSecondPart": "F(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2wsr",
+    "NameFirstPart": "Weds Celica",
+    "NameSecondPart": "GT(J) '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "t2x3n",
+    "NameFirstPart": "Chaser",
+    "NameSecondPart": "TRD Sports X30(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "t2xxn",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": " '84",
+    "Year": "84"
+  },
+  {
+    "CarId": "tcegn",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": "GT-Four(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "tceln",
+    "NameFirstPart": "Celica",
+    "NameSecondPart": " '96",
+    "Year": "95"
+  },
+  {
+    "CarId": "tchsn",
+    "NameFirstPart": "Chaser",
+    "NameSecondPart": "Tourer S(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tchvn",
+    "NameFirstPart": "Chaser",
+    "NameSecondPart": "Tourer V(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "texvn",
+    "NameFirstPart": "Corona Exiv",
+    "NameSecondPart": "200GT(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tlevn",
+    "NameFirstPart": "Levin",
+    "NameSecondPart": "BZG(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tlv1n",
+    "NameFirstPart": "Levin",
+    "NameSecondPart": "GT-APEX(TypeII,J) '85",
+    "Year": "85"
+  },
+  {
+    "CarId": "tlvon",
+    "NameFirstPart": "Levin",
+    "NameSecondPart": "GT-APEX(TypeI,J) '83",
+    "Year": "83"
+  },
+  {
+    "CarId": "tm2sn",
+    "NameFirstPart": "Mark II",
+    "NameSecondPart": "Tourer S(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "tm2vn",
+    "NameFirstPart": "Mark II",
+    "NameSecondPart": "Tourer V(J) '92",
+    "Year": "92"
+  },
+  {
+    "CarId": "tmr2n",
+    "NameFirstPart": "MR2",
+    "NameSecondPart": "GT-S(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tmrln",
+    "NameFirstPart": "MR2",
+    "NameSecondPart": "G-Limited(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tsgtn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "(Turbo) '93",
+    "Year": "93"
+  },
+  {
+    "CarId": "tsoan",
+    "NameFirstPart": "Soarer",
+    "NameSecondPart": "2.5GT-T VVT-i(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tsonn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "(Turbo) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tsoon",
+    "NameFirstPart": "Soarer",
+    "NameSecondPart": "2.5GT-T(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "tsorn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": " '96",
+    "Year": "95"
+  },
+  {
+    "CarId": "tsplr",
+    "NameFirstPart": "Castrol Supra",
+    "NameSecondPart": "GT(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "tspnn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "(Turbo) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "tspon",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": "Twinturbo-R(J) '91",
+    "Year": "91"
+  },
+  {
+    "CarId": "tsprn",
+    "NameFirstPart": "Supra",
+    "NameSecondPart": " '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "tstln",
+    "NameFirstPart": "Starlet",
+    "NameSecondPart": "Glanza V(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "ttr1n",
+    "NameFirstPart": "Trueno",
+    "NameSecondPart": "GT-APEX(TypeII,J) '85",
+    "Year": "85"
+  },
+  {
+    "CarId": "ttrnn",
+    "NameFirstPart": "Trueno",
+    "NameSecondPart": "BZG(J) '96",
+    "Year": "96"
+  },
+  {
+    "CarId": "ttron",
+    "NameFirstPart": "Trueno",
+    "NameSecondPart": "GT-APEX(TypeI,J) '83",
+    "Year": "83"
+  },
+  {
+    "CarId": "uc2dr",
+    "NameFirstPart": "Chaparral 2D",
+    "NameSecondPart": "",
+    "Year": "66"
+  },
+  {
+    "CarId": "uf40n",
+    "NameFirstPart": "GT40",
+    "NameSecondPart": "",
+    "Year": "66"
+  },
+  {
+    "CarId": "uf4lr",
+    "NameFirstPart": "GT40",
+    "NameSecondPart": "Race Car",
+    "Year": "69"
+  },
+  {
+    "CarId": "uf90n",
+    "NameFirstPart": "GT90",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ufc9n",
+    "NameFirstPart": "Mustang",
+    "NameSecondPart": "SVT Cobra  '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "ufcrn",
+    "NameFirstPart": "Mustang",
+    "NameSecondPart": "SVT Cobra  '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "ufm9n",
+    "NameFirstPart": "Mustang",
+    "NameSecondPart": "GT '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "ufmun",
+    "NameFirstPart": "Mustang",
+    "NameSecondPart": "GT '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "ufs9r",
+    "NameFirstPart": "SR",
+    "NameSecondPart": "Widebody",
+    "Year": "99"
+  },
+  {
+    "CarId": "uftan",
+    "NameFirstPart": "Taurus",
+    "NameSecondPart": "SHO '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "ulcun",
+    "NameFirstPart": "Cuda",
+    "NameSecondPart": " '70",
+    "Year": "70"
+  },
+  {
+    "CarId": "ulgxn",
+    "NameFirstPart": "GTX",
+    "NameSecondPart": "",
+    "Year": "67"
+  },
+  {
+    "CarId": "ulpsn",
+    "NameFirstPart": "PT Spyder",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "ulrrn",
+    "NameFirstPart": "Muscle Car",
+    "NameSecondPart": "",
+    "Year": "71"
+  },
+  {
+    "CarId": "ulsbn",
+    "NameFirstPart": "Superbird",
+    "NameSecondPart": "",
+    "Year": "70"
+  },
+  {
+    "CarId": "um67n",
+    "NameFirstPart": "Cougar",
+    "NameSecondPart": "XR-7 '67",
+    "Year": "67"
+  },
+  {
+    "CarId": "umcon",
+    "NameFirstPart": "Cougar",
+    "NameSecondPart": " '99",
+    "Year": "99"
+  },
+  {
+    "CarId": "us35n",
+    "NameFirstPart": "GT350",
+    "NameSecondPart": " '66",
+    "Year": "66"
+  },
+  {
+    "CarId": "us36n",
+    "NameFirstPart": "GT350",
+    "NameSecondPart": " '66",
+    "Year": "66"
+  },
+  {
+    "CarId": "us50n",
+    "NameFirstPart": "GT500",
+    "NameSecondPart": " '68",
+    "Year": "68"
+  },
+  {
+    "CarId": "us51n",
+    "NameFirstPart": "GT500",
+    "NameSecondPart": " '68",
+    "Year": "68"
+  },
+  {
+    "CarId": "usccr",
+    "NameFirstPart": "Cobra Coupe",
+    "NameSecondPart": " '65",
+    "Year": "65"
+  },
+  {
+    "CarId": "uscon",
+    "NameFirstPart": "Cobra",
+    "NameSecondPart": "427 '67",
+    "Year": "67"
+  },
+  {
+    "CarId": "uss1n",
+    "NameFirstPart": "Series 1",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "uv12n",
+    "NameFirstPart": "M12",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "uv2lr",
+    "NameFirstPart": "M12",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "uvw8n",
+    "NameFirstPart": "Wiegert Vector",
+    "NameSecondPart": "W8 Twin Turbo",
+    "Year": "0"
+  },
+  {
+    "CarId": "v-rbr",
+    "NameFirstPart": "Cerbera",
+    "NameSecondPart": "LM Edition",
+    "Year": "0"
+  },
+  {
+    "CarId": "vc50n",
+    "NameFirstPart": "Chimaera",
+    "NameSecondPart": "5.0",
+    "Year": "0"
+  },
+  {
+    "CarId": "vce5n",
+    "NameFirstPart": "Cerbera",
+    "NameSecondPart": "4.5",
+    "Year": "0"
+  },
+  {
+    "CarId": "vch2n",
+    "NameFirstPart": "Chimaera",
+    "NameSecondPart": "4.0",
+    "Year": "0"
+  },
+  {
+    "CarId": "vch5n",
+    "NameFirstPart": "Chimaera",
+    "NameSecondPart": "4.5",
+    "Year": "0"
+  },
+  {
+    "CarId": "vcrbn",
+    "NameFirstPart": "Cerbera",
+    "NameSecondPart": "4.2",
+    "Year": "0"
+  },
+  {
+    "CarId": "vcs6n",
+    "NameFirstPart": "Cerbera",
+    "NameSecondPart": "Speed 6",
+    "Year": "0"
+  },
+  {
+    "CarId": "vgr5n",
+    "NameFirstPart": "Griffith",
+    "NameSecondPart": "500",
+    "Year": "0"
+  },
+  {
+    "CarId": "vgrfn",
+    "NameFirstPart": "Griffith",
+    "NameSecondPart": "Blackpool B340(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "vs12n",
+    "NameFirstPart": "Speed 12",
+    "NameSecondPart": "",
+    "Year": "0"
+  },
+  {
+    "CarId": "vst6n",
+    "NameFirstPart": "Tuscan",
+    "NameSecondPart": "Speed 6",
+    "Year": "0"
+  },
+  {
+    "CarId": "x2a8n",
+    "NameFirstPart": "Alto Works",
+    "NameSecondPart": "RS/Z(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "x2aln",
+    "NameFirstPart": "Alto Works",
+    "NameSecondPart": "RS/X(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "x2asn",
+    "NameFirstPart": "Alto Works",
+    "NameSecondPart": "Limited(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "x2azn",
+    "NameFirstPart": "Alto Works",
+    "NameSecondPart": "RS/Z(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "x2cpn",
+    "NameFirstPart": "Capcino",
+    "NameSecondPart": "(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "x2cur",
+    "NameFirstPart": "Cultus",
+    "NameSecondPart": "Pikes Peak Version(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "x2esr",
+    "NameFirstPart": "Escudo",
+    "NameSecondPart": "Pikes Peak Version(J)",
+    "Year": "0"
+  },
+  {
+    "CarId": "x2ksn",
+    "NameFirstPart": "Kei",
+    "NameSecondPart": "S(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "x2son",
+    "NameFirstPart": "Cervo Mode",
+    "NameSecondPart": "SR-Four(J) '90",
+    "Year": "90"
+  },
+  {
+    "CarId": "x2w8n",
+    "NameFirstPart": "Wagon R",
+    "NameSecondPart": "RR(J) '98",
+    "Year": "98"
+  },
+  {
+    "CarId": "x2wfn",
+    "NameFirstPart": "Wagon R",
+    "NameSecondPart": "Column FT(J) '97",
+    "Year": "97"
+  },
+  {
+    "CarId": "x2wrn",
+    "NameFirstPart": "Wagon R",
+    "NameSecondPart": "Turbo RT/S(J) '95",
+    "Year": "95"
+  },
+  {
+    "CarId": "x2wsn",
+    "NameFirstPart": "Wagon R",
+    "NameSecondPart": "Aero RS(J) '97",
+    "Year": "97"
+  }
+]
