@@ -3,5 +3,5 @@ You WILL NEED these exe's for the tool to run properly.
 
 How to run: 
 Download the repo and place the GTMultiTool folder on the C: drive. 
-Open cmd and cd to the folder.
+Open cmd and type cd C:\GTMultiTool
 type python main.py 
