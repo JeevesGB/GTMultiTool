@@ -1,5 +1,6 @@
 import sys
 import json
+from PyQt6 import uic
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QMessageBox,
     QFileDialog
@@ -23,7 +24,7 @@ class App(QMainWindow):
         self.setWindowIcon(QIcon("ico.ico"))
         self._create_tabs()
         self._create_menu()
-        self._apply_theme('light')  # Pass the theme name here
+        self._apply_theme('light')  
 
     # ---------- Tabs ----------
     def _create_tabs(self):
@@ -167,8 +168,3 @@ class App(QMainWindow):
             "GT Multi Tool\nVersion 0.11.226" # version number is labelled (Version.DD.MMYY)
         )
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = App()
-    window.show()
-    sys.exit(app.exec())

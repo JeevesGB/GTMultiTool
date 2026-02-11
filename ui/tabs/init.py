@@ -7,9 +7,9 @@ class InitTab(QWidget):
 
     def _build_ui(self):
         layout = QVBoxLayout(self)
-        layout.addWidget(QLabel("Initialize Project"))
+        layout.addWidget(QLabel("Welcome to GT Multi Tool!"))
 
-        button = QPushButton("Initialize")
+        button = QPushButton("Home")
         button.clicked.connect(self._initialize)  # Make sure this method exists
         layout.addWidget(button)
 
