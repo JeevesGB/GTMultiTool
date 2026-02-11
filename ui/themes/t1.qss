@@ -1,13 +1,18 @@
 QMainWindow {
     background-color: #2E2E2E;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 QPushButton {
-    background-color: #3C3F41;
+    min-width: 100px;
+    min-height: 30px;
+    max-width: 200px;
+    max-height: 60px;
+    font-size: 14px;
+    background-color: #444444;
     color: #FFFFFF;
     border: 1px solid #888888;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 QPushButton:hover {
@@ -22,12 +27,12 @@ QLineEdit, QTextEdit {
 }
 
 QTabWidget {
-    background-color: #2E2E2E;
+    background-color: #1a1a1a;
     color: #FFFFFF;
 }
 
 QTabBar::tab {
-    background-color: #3C3F41;
+    background-color: #3a4142;
     color: #FFFFFF;
     padding: 10px;
 }
@@ -37,12 +42,12 @@ QTabBar::tab:hover {
 }
 
 QTabBar::tab:selected {
-    background-color: #5A5D61;
+    background-color: #6d7888;
 }
 
 QMenuBar {
     background-color: #444444;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
 }
 
@@ -57,5 +62,5 @@ QMenuBar::item:selected {
 }
 
 QLabel {
-    color: #FFFFFF;
+    color: #000000;
 }

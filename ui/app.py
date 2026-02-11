@@ -23,7 +23,8 @@ class App(QMainWindow):
         self._create_tabs()
         self._create_menu()
         self._apply_theme()
-# ---------- Tabs ----------
+
+    # ---------- Tabs ----------
     def _create_tabs(self):
         self.tabs = QTabWidget()
         self.setCentralWidget(self.tabs)
@@ -34,15 +35,16 @@ class App(QMainWindow):
         self.tool_d_tab = ToolDTab()
         self.tool_e_tab = ToolETab()
         self.tool_f_tab = ToolFTab()
-        #self.tool_g_tab = ToolGTab() - placeholder 
+        #self.tool_g_tab = ToolGTab() - placeholder
         self.tabs.addTab(self.tool_a_tab, "TXT 2 CSV")
         self.tabs.addTab(self.tool_b_tab, "pPainter")
         self.tabs.addTab(self.tool_c_tab, "GT2 Billboard Editor GUI")
         self.tabs.addTab(self.tool_d_tab, ".tim Viewer")
         self.tabs.addTab(self.tool_e_tab, "GT2 Model Tool GUI")
         self.tabs.addTab(self.tool_f_tab, ".obj Viewer")
-        #self.tabs.addTab(self.tool_g_tab, "---") - placeholder 
-# ---------- Menu ----------
+        #self.tabs.addTab(self.tool_g_tab, "---") - placeholder
+
+    # ---------- Menu ----------
     def _create_menu(self):
         menubar = self.menuBar()
 
@@ -69,7 +71,6 @@ class App(QMainWindow):
         # Edit menu (placeholder)
         edit_menu = menubar.addMenu("Edit")
 
-
         help_menu = menubar.addMenu("Help")
         about_action = QAction("About", self)
         about_action.triggered.connect(self._help_about)
@@ -77,14 +78,16 @@ class App(QMainWindow):
 
     def _apply_theme(self):
         try:
-            with open("ui/themes/t1.json", "r") as f:
-                theme = json.load(f)
-            bg_color = theme.get("background", "#B7C9DB")
-            fg_color = theme.get("foreground", "#222222")
-            self.setStyleSheet(f"QMainWindow {{ background-color: {bg_color}; color: {fg_color}; }}")
+            # Load the QSS file
+            with open("ui/themes/t1.qss", "r") as f:
+                qss = f.read()
+
+            # Apply the QSS to the application
+            self.setStyleSheet(qss)
+        
         except Exception as e:
             print(f"Theme apply failed: {e}")
-            self.setStyleSheet("")
+            self.setStyleSheet("")  # Set default style if QSS loading fails
 
     def _file_new_project(self):
         self.tool_a_tab.load_state({})

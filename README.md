@@ -26,3 +26,8 @@ python main.py
 ![Main Window](git/4.png)
 
 ![Main Window](git/5.png)
+
+
+## Credit
+
+- Freepik: Icons

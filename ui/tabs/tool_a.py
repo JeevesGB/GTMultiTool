@@ -7,15 +7,19 @@ from PyQt6.QtWidgets import (
     QFileDialog, QTreeWidget, QTreeWidgetItem, QScrollArea,
     QLineEdit, QFrame, QMenu, QStatusBar, QMessageBox, QTabWidget, QApplication, QMainWindow
 )
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QSize
+from PyQt6.QtGui import QIcon
 
 
+# Constants for file paths
 CONFIG_FILE = "logic/data/config.json"
 JSON_SCHEMA_FILE = "logic/data/headers.json"
 CAR_NAMES_FILE = "logic/data/carnames.json"
 
+
 def ensure_folders():
     os.makedirs("data", exist_ok=True)
+
 
 def load_config():
     if os.path.isfile(CONFIG_FILE):
@@ -23,14 +27,17 @@ def load_config():
             return json.load(f)
     return {}
 
+
 def save_config(cfg):
     with open(CONFIG_FILE, "w") as f:
         json.dump(cfg, f, indent=2)
+
 
 def load_csv(path):
     with open(path, newline="") as f:
         rows = list(csv.reader(f))
     return rows[0], rows[1] if len(rows) > 1 else []
+
 
 def reveal_in_explorer(path):
     folder = path if os.path.isdir(path) else os.path.dirname(path)
@@ -51,6 +58,7 @@ class ToolATab(QWidget):
 
         self._build_ui()
 
+        # Load split data path if available
         if path := self.config.get("split_data_path"):
             if os.path.isdir(path):
                 self.load_split_data(path)
@@ -63,17 +71,75 @@ class ToolATab(QWidget):
         main_layout.addLayout(left_panel, 1)
 
         left_panel.addWidget(QLabel("Split Data", alignment=Qt.AlignmentFlag.AlignLeft))
-        choose_btn = QPushButton("Choose Folder")
+        choose_btn = QPushButton("")
+        choose_btn.setToolTip("Choose Split Data Folder")
+        choose_btn.setFixedWidth(25)
+        choose_btn.setIcon(QIcon("ui/themes/icons/open.png"))  # Add folder icon
+        choose_btn.setIconSize(QSize(24, 24))
         choose_btn.clicked.connect(self.choose_split_folder)
         left_panel.addWidget(choose_btn)
 
         self._build_tree(left_panel)
 
+        # ---- Right panel ----
         right_panel = QVBoxLayout()
         main_layout.addLayout(right_panel, 2)
 
         self._build_form_area(right_panel)
         self._build_bottom_bar(right_panel)
+
+        # Apply a style sheet for customization
+        self.setStyleSheet("""
+            QWidget {
+                background-color: #2E2E2E;
+                color: #ffffff;
+            }
+
+            QPushButton {
+                min-width: 100px;
+                min-height: 30px;
+                font-size: 14px;
+                background-color: #444444;
+                color: #FFFFFF;
+                border: 1px solid #888888;
+                padding: 5px 10px;
+            }
+
+            QPushButton:hover {
+                background-color: #5A5D61;
+            }
+
+            QLineEdit, QTextEdit {
+                background-color: #555555;
+                color: #FFFFFF;
+                border: 1px solid #888888;
+                padding: 5px;
+            }
+
+            QTabWidget {
+                background-color: #1a1a1a;
+                color: #FFFFFF;
+            }
+
+            QTabBar::tab {
+                background-color: #3a4142;
+                color: #FFFFFF;
+                padding: 10px;
+            }
+
+            QTabBar::tab:hover {
+                background-color: #5A5D61;
+            }
+
+            QTabBar::tab:selected {
+                background-color: #6d7888;
+            }
+
+            QLabel {
+                color: #ffffff;
+                padding: 5px;
+            }
+        """)
 
     def _build_tree(self, layout):
         self.tree = QTreeWidget()
@@ -155,9 +221,15 @@ class ToolATab(QWidget):
     def _build_bottom_bar(self, layout):
         bar = QHBoxLayout()
         import_btn = QPushButton("Import CSV")
+        import_btn.setIcon(QIcon("path/to/import_icon.png"))  # Add import icon
+        import_btn.setIconSize(QSize(24, 24))
         import_btn.clicked.connect(self.import_csv)
+
         export_btn = QPushButton("Generate CSV")
+        export_btn.setIcon(QIcon("path/to/export_icon.png"))  # Add export icon
+        export_btn.setIconSize(QSize(24, 24))
         export_btn.clicked.connect(self.export_csv)
+
         self.status_label = QLabel("Ready")
 
         bar.addWidget(import_btn)
@@ -217,7 +289,7 @@ class ToolATab(QWidget):
             "split_data_path": self.config.get("split_data_path", ""),
             "entries": {k: v.text() for k, v in self.entries.items()}
         }
-    
+
     def load_state(self, state):
         path = state.get("split_data_path")
         if path and os.path.isdir(path):
