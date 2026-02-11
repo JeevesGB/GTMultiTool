@@ -1,4 +1,5 @@
 import os
+import json
 import pathlib
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QPushButton, QFileDialog, QLabel, QHBoxLayout,
@@ -10,7 +11,6 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 from PIL import Image
 
-
 # =========================
 # OBJ + TEXTURE LOADER (BMP and PNG)
 # =========================
@@ -20,11 +20,11 @@ class OBJModel:
         self.vertices = []
         self.texcoords = []
         self.normals = []
-        self.faces = []  # list of tuples: (face_vertices, material_name)
+        self.faces = []  
         self.groups = {}
-        self.materials = {}  # material_name -> texture_id
+        self.materials = {}  
         self.console = console
-        self.texture_id = None  # fallback texture
+        self.texture_id = None 
         self.base_dir = os.path.dirname(obj_path)
         self.obj_path = obj_path
 
@@ -82,86 +82,68 @@ class OBJModel:
                         ni = int(parts[2]) - 1 if len(parts) > 2 and parts[2] else -1
                         face.append((vi, ti, ni))
 
-                    # Only LOD0 faces if group exists
                     if current_group is None or current_group.lower().startswith("lod0"):
                         self.faces.append((face, current_material))
                         if current_group:
                             self.groups[current_group].append((face, current_material))
 
-        # Load texture after obj is parsed
-        QTimer.singleShot(0, self._load_car_texture)  # Ensure it runs after OpenGL context is ready
+        QTimer.singleShot(0, self._load_car_texture)
 
     # -------------------------
-    # MTL LOADER
-    # -------------------------
-    def _load_mtl(self, path):
-        if not os.path.exists(path):
-            self._log(f"[OBJModel] MTL file not found: {path}")
-            return
-
-        self._log(f"[OBJModel] Loading MTL: {path}")
-        base_dir = os.path.dirname(path)
-        current_mtl = None
-
-        with open(path, "r", encoding="utf-8", errors="ignore") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#"):
-                    continue
-
-                if line.startswith("newmtl "):
-                    current_mtl = line.split()[1]
-
-                elif line.startswith("map_Kd ") and current_mtl:
-                    tex_file = line.split(maxsplit=1)[1]
-                    tex_path = os.path.join(base_dir, tex_file)
-                    if os.path.exists(tex_path):
-                        tex_id = self._load_texture(tex_path)
-                        self.materials[current_mtl] = tex_id
-                        self._log(f"[OBJModel] Loaded texture {tex_file} for material {current_mtl}")
-                    else:
-                        self._log(f"[OBJModel] Texture not found: {tex_path}")
-
-    # -------------------------
-    # CAR FOLDER FALLBACK
+    # CAR FOLDER FALLBACK (Look for "_night" in folder)
     # -------------------------
     def _load_car_texture(self):
         obj_name = os.path.splitext(os.path.basename(self.obj_path))[0]
         carid_folder = os.path.join(self.base_dir, obj_name)
-        bmp_path = os.path.join(carid_folder, f"{obj_name}.bmp")
-        png_path = os.path.join(carid_folder, f"{obj_name}.png")
 
-        # First, try loading BMP texture
-        if os.path.exists(bmp_path):
-            self.texture_id = self._load_texture(bmp_path)
-            self._log(f"[OBJModel] Loaded fallback texture (BMP): {bmp_path}")
-        # If BMP doesn't exist, try PNG
-        elif os.path.exists(png_path):
-            self.texture_id = self._load_texture(png_path)
-            self._log(f"[OBJModel] Loaded fallback texture (PNG): {png_path}")
+        # Add '_night' to folder search
+        night_folder = None
+        for root, dirs, files in os.walk(carid_folder):
+            for dir_name in dirs:
+                if "_night" in dir_name.lower():  # Look for _night folder
+                    night_folder = os.path.join(root, dir_name)
+                    break
+            if night_folder:
+                break
+        
+        if night_folder:
+            bmp_path = os.path.join(night_folder, f"{obj_name}.bmp")
+            png_path = os.path.join(night_folder, f"{obj_name}.png")
+
+            # Check if bmp or png exists in the _night folder
+            if os.path.exists(bmp_path):
+                self.texture_id = self._load_texture(bmp_path)
+                self._log(f"[OBJModel] Loaded texture (BMP): {bmp_path}")
+            elif os.path.exists(png_path):
+                self.texture_id = self._load_texture(png_path)
+                self._log(f"[OBJModel] Loaded texture (PNG): {png_path}")
+            else:
+                self._log(f"[OBJModel] No texture found in {night_folder}")
         else:
-            self._log(f"[OBJModel] No fallback texture found in {carid_folder}")
+            self._log(f"[OBJModel] No '_night' folder found in {carid_folder}")
 
     # -------------------------
     # OPENGL TEXTURE CREATION (BMP and PNG)
     # -------------------------
     def _load_texture(self, path):
-        img = Image.open(path).transpose(Image.FLIP_TOP_BOTTOM)
+        try:
+            img = Image.open(path).transpose(Image.FLIP_TOP_BOTTOM)
+            img_data = img.convert("RGBA").tobytes()
 
-        # Convert to RGBA to support transparent textures
-        img_data = img.convert("RGBA").tobytes()
-
-        tex_id = glGenTextures(1)
-        glBindTexture(GL_TEXTURE_2D, tex_id)
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
-        glTexImage2D(
-            GL_TEXTURE_2D, 0, GL_RGBA,
-            img.width, img.height,
-            0, GL_RGBA, GL_UNSIGNED_BYTE,
-            img_data
-        )
-        return tex_id
+            tex_id = glGenTextures(1)
+            glBindTexture(GL_TEXTURE_2D, tex_id)
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+            glTexImage2D(
+                GL_TEXTURE_2D, 0, GL_RGBA,
+                img.width, img.height,
+                0, GL_RGBA, GL_UNSIGNED_BYTE,
+                img_data
+            )
+            return tex_id
+        except Exception as e:
+            self._log(f"[OBJModel] Error loading texture: {path} - {str(e)}")
+            return None
 
 
 # =========================
@@ -176,8 +158,7 @@ class GLViewport(QOpenGLWidget):
         self.show_main_scene = True
         self.console = console
 
-        # Camera
-        self.distance = 6.0
+        self.distance = 10.0
         self.yaw = 0.0
         self.pitch = 20.0
         self.pan_x = 0.0
@@ -193,6 +174,7 @@ class GLViewport(QOpenGLWidget):
         self.timer.start(16)
 
     def load_main_scene(self, path):
+        self.main_scene_model = None  
         self.main_scene_model = OBJModel(path, console=self.console)
         self.update()
 
@@ -240,6 +222,36 @@ class GLViewport(QOpenGLWidget):
 
         if self.loaded_model:
             self._draw_model(self.loaded_model)
+
+    def _draw_grid(self):
+        glColor3f(0.3, 0.3, 0.3)
+        glBegin(GL_LINES)
+        for i in range(-10, 11, 1):
+            glVertex3f(i, 0, -10)
+            glVertex3f(i, 0, 10)
+
+            glVertex3f(-10, 0, i)
+            glVertex3f(10, 0, i)
+        glEnd()
+
+    def _draw_axis(self):
+        glLineWidth(2)
+        glBegin(GL_LINES)
+        # X-axis (red)
+        glColor3f(1.0, 0.0, 0.0)
+        glVertex3f(-10, 0, 0)
+        glVertex3f(10, 0, 0)
+
+        # Y-axis (green)
+        glColor3f(0.0, 1.0, 0.0)
+        glVertex3f(0, -10, 0)
+        glVertex3f(0, 10, 0)
+
+        # Z-axis (blue)
+        glColor3f(0.0, 0.0, 1.0)
+        glVertex3f(0, 0, -10)
+        glVertex3f(0, 0, 10)
+        glEnd()
 
     def _draw_model(self, model):
         if self.wireframe:
@@ -292,27 +304,6 @@ class GLViewport(QOpenGLWidget):
         self.distance = max(1.5, min(25.0, self.distance))
         self.update()
 
-    def _draw_grid(self, size=10, step=1):
-        glDisable(GL_LIGHTING)
-        glColor3f(0.3, 0.3, 0.3)
-        glBegin(GL_LINES)
-        for i in range(-size, size + 1, step):
-            glVertex3f(i, 0, -size)
-            glVertex3f(i, 0, size)
-            glVertex3f(-size, 0, i)
-            glVertex3f(size, 0, i)
-        glEnd()
-        glEnable(GL_LIGHTING)
-
-    def _draw_axis(self):
-        glDisable(GL_LIGHTING)
-        glBegin(GL_LINES)
-        glColor3f(1, 0, 0); glVertex3f(0, 0, 0); glVertex3f(2, 0, 0)
-        glColor3f(0, 1, 0); glVertex3f(0, 0, 0); glVertex3f(0, 2, 0)
-        glColor3f(0, 0, 1); glVertex3f(0, 0, 0); glVertex3f(0, 0, 2)
-        glEnd()
-        glEnable(GL_LIGHTING)
-
 
 # =========================
 # TOOL F TAB (Brightness slider + Main Scene toggle)
@@ -320,19 +311,40 @@ class GLViewport(QOpenGLWidget):
 class ToolFTab(QWidget):
     def __init__(self):
         super().__init__()
+        self.viewport = GLViewport(self) 
         self._build_ui()
         self._load_default_model()
 
     def _build_ui(self):
         layout = QVBoxLayout(self)
 
+        
+        console_slider_layout = QHBoxLayout()
+
+
         self.console = QTextEdit()
         self.console.setReadOnly(True)
         self.console.setMaximumHeight(150)
 
-        self.viewport = GLViewport(self, console=self.console)
 
-        btn_layout = QHBoxLayout()
+        slider_layout = QVBoxLayout() 
+        slider_label = QLabel("Brightness:")
+        self.brightness_slider = QSlider(Qt.Orientation.Vertical)
+        self.brightness_slider.setMinimum(0)
+        self.brightness_slider.setMaximum(100)
+        self.brightness_slider.setValue(50)
+        self.brightness_slider.valueChanged.connect(self._update_brightness)
+        self.brightness_value_label = QLabel("0.50")
+        slider_layout.addWidget(slider_label)
+        slider_layout.addWidget(self.brightness_slider)
+        slider_layout.addWidget(self.brightness_value_label)
+
+
+        console_slider_layout.addWidget(self.console, 2) 
+        console_slider_layout.addLayout(slider_layout)    
+
+
+        btn_layout = QVBoxLayout()
         load_btn = QPushButton("Load OBJ")
         wire_btn = QPushButton("Wireframe")
         load_btn.clicked.connect(self._load_model)
@@ -340,28 +352,16 @@ class ToolFTab(QWidget):
         btn_layout.addWidget(load_btn)
         btn_layout.addWidget(wire_btn)
 
-        slider_layout = QHBoxLayout()
-        slider_label = QLabel("Brightness:")
-        self.brightness_slider = QSlider(Qt.Orientation.Horizontal)
-        self.brightness_slider.setMinimum(0)
-        self.brightness_slider.setMaximum(200)
-        self.brightness_slider.setValue(100)
-        self.brightness_slider.valueChanged.connect(self._update_brightness)
-        self.brightness_value_label = QLabel("1.00")
-        slider_layout.addWidget(slider_label)
-        slider_layout.addWidget(self.brightness_slider)
-        slider_layout.addWidget(self.brightness_value_label)
-
         self.main_scene_checkbox = QCheckBox("Show Main Scene")
         self.main_scene_checkbox.setChecked(True)
         self.main_scene_checkbox.stateChanged.connect(self._toggle_main_scene)
 
-        layout.addWidget(self.viewport, 1)
+
+        layout.addWidget(self.viewport, 4)  
         layout.addLayout(btn_layout)
-        layout.addLayout(slider_layout)
+        layout.addLayout(console_slider_layout) 
         layout.addWidget(self.main_scene_checkbox)
         layout.addWidget(QLabel("Console:"))
-        layout.addWidget(self.console)
 
     def _load_default_model(self):
         project_root = pathlib.Path(__file__).resolve().parents[2]
@@ -390,12 +390,33 @@ class ToolFTab(QWidget):
         self.viewport.update()
 
     def _toggle_main_scene(self, state):
-        # Correct the toggle mechanism: show the main scene only if the checkbox is checked
-        self.viewport.show_main_scene = (state == Qt.CheckState.Checked)
-        self.viewport.update()  # Ensure it refreshes the display after toggling
+        project_root = pathlib.Path(__file__).resolve().parents[2]
+        path = project_root / "mdl" / "scene" / "rd.obj"
+
+        if path.exists():
+            self.viewport.load_main_scene(str(path))  
+        else:
+            self.console.append(f"Main scene OBJ not found: {path}")
 
     def get_state(self):
-        return {}
+        return {
+            "show_main_scene": self.viewport.show_main_scene,
+            "brightness": self.viewport.brightness,
+            "wireframe": self.viewport.wireframe,
+            "console_text": self.console.toPlainText()  
+        }
 
     def load_state(self, state):
-        pass
+        if "show_main_scene" in state:
+            self.viewport.show_main_scene = state["show_main_scene"]
+            self.main_scene_checkbox.setChecked(self.viewport.show_main_scene)
+
+        if "brightness" in state:
+            self.viewport.brightness = state["brightness"]
+            self.brightness_slider.setValue(int(self.viewport.brightness * 100))
+
+        if "wireframe" in state:
+            self.viewport.wireframe = state["wireframe"]
+
+        if "console_text" in state:
+            self.console.setPlainText(state["console_text"])

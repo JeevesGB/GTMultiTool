@@ -100,7 +100,9 @@ class App(QMainWindow):
             "tool_b": self.tool_b_tab.get_state(),
             "tool_c": self.tool_c_tab.get_state(),
             "tool_d": self.tool_d_tab.get_state(),
-            "tool_e": self.tool_e_tab.get_state()
+            "tool_e": self.tool_e_tab.get_state(),
+            "tool_f": self.tool_f_tab.get_state(),
+            #"tool_g": self.tool_g_tab.get_state() - placeholder
         }
 
         try:
