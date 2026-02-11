@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QMessageBox,
     QFileDialog
 )
-from PyQt6.QtGui import QAction
+from PyQt6.QtGui import QAction, QIcon
 
 # tab imports from the tabs folder - each tab is a separate file for better organization
 from ui.tabs.tool_a import ToolATab
@@ -12,13 +12,14 @@ from ui.tabs.tool_b import ToolBTab
 from ui.tabs.tool_c import ToolCTab
 from ui.tabs.tool_d import ToolDTab
 from ui.tabs.tool_e import ToolETab
-
+from ui.tabs.tool_f import ToolFTab
 
 class App(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("GT Multi Tool")
         self.setGeometry(100, 100, 1000, 700)
+        self.setWindowIcon(QIcon("ico.ico"))
         self._create_tabs()
         self._create_menu()
         self._apply_theme()
@@ -32,12 +33,13 @@ class App(QMainWindow):
         self.tool_c_tab = ToolCTab()
         self.tool_d_tab = ToolDTab()
         self.tool_e_tab = ToolETab()
-
+        self.tool_f_tab = ToolFTab()
         self.tabs.addTab(self.tool_a_tab, "TXT 2 CSV")
         self.tabs.addTab(self.tool_b_tab, "pPainter")
         self.tabs.addTab(self.tool_c_tab, "GT2 Billboard Editor GUI")
         self.tabs.addTab(self.tool_d_tab, ".tim Viewer")
         self.tabs.addTab(self.tool_e_tab, "GT2 Model Tool GUI")
+        self.tabs.addTab(self.tool_f_tab, ".obj Viewer")
 # ---------- Menu ----------
     def _create_menu(self):
         menubar = self.menuBar()

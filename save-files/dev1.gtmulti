@@ -1,0 +1,29 @@
+{
+    "tool_a": {
+        "split_data_path": "",
+        "entries": {}
+    },
+    "tool_b": {
+        "last_folder": "",
+        "last_tim": "",
+        "palette": null,
+        "zoom": 1.0
+    },
+    "tool_c": {
+        "exe_path": null,
+        "console_text": "",
+        "pools_text": "",
+        "brands_text": ""
+    },
+    "tool_d": {
+        "last_folder": "",
+        "last_tim": null,
+        "palette": null,
+        "zoom": 1.0
+    },
+    "tool_e": {
+        "carobj": "C:/Users/there/Desktop/DEV/Github/GTMultiTool/testconversions/carobj/decomp",
+        "output": "C:/Users/there/Desktop/DEV/Github/GTMultiTool/testconversions/output",
+        "batch": true
+    }
+}
