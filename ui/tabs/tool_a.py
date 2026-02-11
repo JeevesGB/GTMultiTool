@@ -10,7 +10,6 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt, QSize
 from PyQt6.QtGui import QIcon
 
-
 # Constants for file paths
 CONFIG_FILE = "logic/data/config.json"
 JSON_SCHEMA_FILE = "logic/data/headers.json"
@@ -71,11 +70,18 @@ class ToolATab(QWidget):
         main_layout.addLayout(left_panel, 1)
 
         left_panel.addWidget(QLabel("Split Data", alignment=Qt.AlignmentFlag.AlignLeft))
+        
+        # Create the button with an icon
         choose_btn = QPushButton("")
         choose_btn.setToolTip("Choose Split Data Folder")
-        choose_btn.setFixedWidth(25)
         choose_btn.setIcon(QIcon("ui/themes/icons/open.png"))  # Add folder icon
-        choose_btn.setIconSize(QSize(24, 24))
+        icon_size = QSize(24, 24)  # Set icon size
+        choose_btn.setIconSize(icon_size)
+
+        # Set button size explicitly to match icon size
+        choose_btn.setFixedWidth(icon_size.width())  # Set the button width to the icon width
+        choose_btn.setFixedHeight(icon_size.height())  # Set the button height to the icon height
+
         choose_btn.clicked.connect(self.choose_split_folder)
         left_panel.addWidget(choose_btn)
 
@@ -88,58 +94,17 @@ class ToolATab(QWidget):
         self._build_form_area(right_panel)
         self._build_bottom_bar(right_panel)
 
-        # Apply a style sheet for customization
-        self.setStyleSheet("""
-            QWidget {
-                background-color: #2E2E2E;
-                color: #ffffff;
-            }
+        # Apply the QSS style from external file
+        self.apply_stylesheet("ui/themes/light.qss")
 
-            QPushButton {
-                min-width: 100px;
-                min-height: 30px;
-                font-size: 14px;
-                background-color: #444444;
-                color: #FFFFFF;
-                border: 1px solid #888888;
-                padding: 5px 10px;
-            }
-
-            QPushButton:hover {
-                background-color: #5A5D61;
-            }
-
-            QLineEdit, QTextEdit {
-                background-color: #555555;
-                color: #FFFFFF;
-                border: 1px solid #888888;
-                padding: 5px;
-            }
-
-            QTabWidget {
-                background-color: #1a1a1a;
-                color: #FFFFFF;
-            }
-
-            QTabBar::tab {
-                background-color: #3a4142;
-                color: #FFFFFF;
-                padding: 10px;
-            }
-
-            QTabBar::tab:hover {
-                background-color: #5A5D61;
-            }
-
-            QTabBar::tab:selected {
-                background-color: #6d7888;
-            }
-
-            QLabel {
-                color: #ffffff;
-                padding: 5px;
-            }
-        """)
+    def apply_stylesheet(self, qss_file_path):
+        try:
+            with open(qss_file_path, "r") as f:
+                style = f.read()
+            self.setStyleSheet(style)
+        except Exception as e:
+            print(f"Error loading stylesheet: {e}")
+            self.setStyleSheet("")  # Fallback in case of error
 
     def _build_tree(self, layout):
         self.tree = QTreeWidget()
@@ -221,12 +186,12 @@ class ToolATab(QWidget):
     def _build_bottom_bar(self, layout):
         bar = QHBoxLayout()
         import_btn = QPushButton("Import CSV")
-        import_btn.setIcon(QIcon("path/to/import_icon.png"))  # Add import icon
+        import_btn.setIcon(QIcon("ui\\themes\\icons\\csv.png"))  
         import_btn.setIconSize(QSize(24, 24))
         import_btn.clicked.connect(self.import_csv)
 
         export_btn = QPushButton("Generate CSV")
-        export_btn.setIcon(QIcon("path/to/export_icon.png"))  # Add export icon
+        export_btn.setIcon(QIcon("ui\\themes\\icons\\save.png"))  
         export_btn.setIconSize(QSize(24, 24))
         export_btn.clicked.connect(self.export_csv)
 

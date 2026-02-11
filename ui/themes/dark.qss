@@ -1,0 +1,142 @@
+/* Apply to ALL widgets */
+QWidget {
+    background-color: #4d4d4d;
+    color: #dfdfdf;
+}
+
+/* Fix random white frames */
+QFrame {
+    background-color: #4d4d4d;
+    border: none;
+}
+
+/* Fix tab content area border */
+QTabWidget::pane {
+    border: none;
+    background-color: #4d4d4d;
+}
+
+/* Fix group boxes if you have them */
+QGroupBox {
+    background-color: #4d4d4d;
+    border: 1px solid #2c2c2c;
+    margin-top: 6px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px 0 5px;
+}
+
+
+/* Main Window Background */
+QMainWindow {
+    background-color: #4d4d4d;
+    color: #b6b6b6;
+}
+
+/* QPushButton */
+QPushButton {
+    min-width: 100px;
+    min-height: 30px;
+    max-width: 200px;
+    max-height: 60px;
+    font-size: 14px;
+    background-color: #2c2c2c;
+    color: #c9c9c9;
+    border: 2px solid #000000;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #a86a6a;
+}
+
+/* QLineEdit and QTextEdit */
+QLineEdit, QTextEdit {
+    background-color: #252525;
+    color: #d4d4d4;
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+/* QTabWidget */
+QTabWidget {
+    background-color: #424242;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* QTabBar */
+QTabBar::tab {
+    background-color: #616161;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+QTabBar::tab:hover {
+    background-color: #a86a6a;
+}
+
+QTabBar::tab:selected {
+    background-color: #9c9da0;
+}
+
+/* QMenuBar */
+QMenuBar {
+    background-color: #4d4d4d;
+    color: #ffffff;
+    border: none;
+}
+
+QMenuBar::item {
+    background-color: #313131;
+    color: #FFFFFF;
+    padding: 5px 15px;
+}
+
+QMenuBar::item:selected {
+    background-color: #4b4343;
+}
+
+/* QMenu */
+QMenu {
+    background-color: #2c2c2c;
+    color: #FFFFFF;
+}
+
+QMenu::item {
+    background-color: #3d3d3d;
+    padding: 5px;
+}
+
+QMenu::item:selected {
+    background-color: #4b4343;
+}
+
+/* QLabel */
+QLabel {
+    color: #ffffff; /* Set the label text color */
+}
+
+/* Additional Customization for Scroll Areas and Text Inputs */
+QScrollArea {
+    background-color: #333333;
+}
+
+QScrollBar:vertical {
+    background-color: #4d4d4d;
+    border: 1px solid #888;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #7f7f7f;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background-color: #4d4d4d;
+    border: none;
+}

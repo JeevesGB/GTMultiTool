@@ -6,7 +6,8 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QAction, QIcon
 
-# tab imports from the tabs folder - each tab is a separate file for better organization
+# Import the InitTab and other tabs
+from ui.tabs.init import InitTab
 from ui.tabs.tool_a import ToolATab
 from ui.tabs.tool_b import ToolBTab
 from ui.tabs.tool_c import ToolCTab
@@ -22,72 +23,93 @@ class App(QMainWindow):
         self.setWindowIcon(QIcon("ico.ico"))
         self._create_tabs()
         self._create_menu()
-        self._apply_theme()
+        self._apply_theme('light')  # Pass the theme name here
 
     # ---------- Tabs ----------
     def _create_tabs(self):
         self.tabs = QTabWidget()
         self.setCentralWidget(self.tabs)
-
+        
+        # Add InitTab first, then the other tool tabs
+        self.init_tab = InitTab()  # Make sure you use InitTab
         self.tool_a_tab = ToolATab()
         self.tool_b_tab = ToolBTab()
         self.tool_c_tab = ToolCTab()
         self.tool_d_tab = ToolDTab()
         self.tool_e_tab = ToolETab()
         self.tool_f_tab = ToolFTab()
-        #self.tool_g_tab = ToolGTab() - placeholder
+        
+        self.tabs.addTab(self.init_tab, "Init")  # Add InitTab as the first tab
         self.tabs.addTab(self.tool_a_tab, "TXT 2 CSV")
         self.tabs.addTab(self.tool_b_tab, "pPainter")
         self.tabs.addTab(self.tool_c_tab, "GT2 Billboard Editor GUI")
         self.tabs.addTab(self.tool_d_tab, ".tim Viewer")
         self.tabs.addTab(self.tool_e_tab, "GT2 Model Tool GUI")
         self.tabs.addTab(self.tool_f_tab, ".obj Viewer")
-        #self.tabs.addTab(self.tool_g_tab, "---") - placeholder
 
     # ---------- Menu ----------
     def _create_menu(self):
         menubar = self.menuBar()
 
         file_menu = menubar.addMenu("File")
-
         new_action = QAction("New Project", self)
         new_action.triggered.connect(self._file_new_project)
+        file_menu.addAction(new_action)
 
         open_action = QAction("Open Project...", self)
         open_action.triggered.connect(self._file_open_project)
+        file_menu.addAction(open_action)
 
         save_action = QAction("Save Project", self)
         save_action.triggered.connect(self._file_save_project)
-
+        file_menu.addAction(save_action)
+    
+        file_menu.addSeparator()
         exit_action = QAction("Exit", self)
         exit_action.triggered.connect(self.close)
-
-        file_menu.addAction(new_action)
-        file_menu.addAction(open_action)
-        file_menu.addAction(save_action)
-        file_menu.addSeparator()
         file_menu.addAction(exit_action)
 
-        # Edit menu (placeholder)
         edit_menu = menubar.addMenu("Edit")
 
         help_menu = menubar.addMenu("Help")
         about_action = QAction("About", self)
         about_action.triggered.connect(self._help_about)
         help_menu.addAction(about_action)
+    # ---------- Themes ----------
+        theme_menu = menubar.addMenu("Themes")
 
-    def _apply_theme(self):
+        light_theme_action = QAction("Light Theme", self)
+        light_theme_action.triggered.connect(lambda: self._apply_theme('light'))
+        theme_menu.addAction(light_theme_action)
+
+        dark_theme_action = QAction("Dark Theme", self)
+        dark_theme_action.triggered.connect(lambda: self._apply_theme('dark'))
+        theme_menu.addAction(dark_theme_action)
+
+    # Placeholes for future themes
+    # blue_theme_action = QAction("Blue Theme", self)
+    # blue_theme_action.triggered.connect(lambda: self._apply_theme('blue'))
+    # theme_menu.addAction(blue_theme_action)
+
+
+    def _apply_theme(self, theme_name):
         try:
-            # Load the QSS file
-            with open("ui/themes/t1.qss", "r") as f:
-                qss = f.read()
-
-            # Apply the QSS to the application
-            self.setStyleSheet(qss)
+            # Construct the path to the theme file
+            theme_file_path = f"ui/themes/{theme_name}.qss"
         
+        # Open and read the theme file
+            with open(theme_file_path, "r") as f:
+                qss = f.read()
+        
+        # Apply the QSS to the application
+            self.setStyleSheet(qss)
+            print(f"Applied {theme_name} theme")
+    
         except Exception as e:
-            print(f"Theme apply failed: {e}")
-            self.setStyleSheet("")  # Set default style if QSS loading fails
+            print(f"Failed to apply {theme_name} theme: {e}")
+        # Optionally apply a default theme (if any)
+            self.setStyleSheet("")  # Reset to default theme if loading fails
+
 
     def _file_new_project(self):
         self.tool_a_tab.load_state({})
@@ -131,6 +153,8 @@ class App(QMainWindow):
             self.tool_c_tab.load_state(project.get("tool_c", {}))
             self.tool_d_tab.load_state(project.get("tool_d", {}))
             self.tool_e_tab.load_state(project.get("tool_e", {}))
+            self.tool_f_tab.load_state(project.get("tool_f", {}))
+            #self.tool_g_tab.load_state(project.get("tool_g", {})) - placeholder
 
             QMessageBox.information(self, "Project Loaded", f"Project loaded from {path}")
         except Exception as e:
@@ -140,7 +164,7 @@ class App(QMainWindow):
         QMessageBox.information(
             self,
             "About",
-            "GT Multi Tool\nVersion 0.0.1"
+            "GT Multi Tool\nVersion 0.11.226" # version number is labelled (Version.DD.MMYY)
         )
 
 if __name__ == "__main__":
