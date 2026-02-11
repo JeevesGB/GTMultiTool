@@ -33,9 +33,12 @@ class OBJModel:
 
     def _log(self, msg):
         if self.console:
+        # Append message to QTextEdit console widget
             self.console.append(msg)
         else:
+        # Print to terminal for debugging
             print(msg)
+
 
     # -------------------------
     # OBJ LOADER
@@ -90,17 +93,17 @@ class OBJModel:
         QTimer.singleShot(0, self._load_car_texture)
 
     # -------------------------
-    # CAR FOLDER FALLBACK (Look for "_night" in folder)
+    # CAR FOLDER FALLBACK (Look for '_night' in 'Night' folder)
     # -------------------------
     def _load_car_texture(self):
         obj_name = os.path.splitext(os.path.basename(self.obj_path))[0]
-        carid_folder = os.path.join(self.base_dir, obj_name)
+        carid_folder = os.path.dirname(self.obj_path)  # This gets the "Night" folder
 
-        # Add '_night' to folder search
+        # Look for subfolders containing '_night' within the current "Night" folder
         night_folder = None
         for root, dirs, files in os.walk(carid_folder):
             for dir_name in dirs:
-                if "_night" in dir_name.lower():  # Look for _night folder
+                if dir_name.lower().endswith("_night"):  # Look for folder names ending with '_night'
                     night_folder = os.path.join(root, dir_name)
                     break
             if night_folder:
@@ -305,6 +308,7 @@ class GLViewport(QOpenGLWidget):
         self.update()
 
 
+
 # =========================
 # TOOL F TAB (Brightness slider + Main Scene toggle)
 # =========================
@@ -325,6 +329,7 @@ class ToolFTab(QWidget):
         self.console = QTextEdit()
         self.console.setReadOnly(True)
         self.console.setMaximumHeight(150)
+        self.viewport.console = self.console
 
 
         slider_layout = QVBoxLayout() 
