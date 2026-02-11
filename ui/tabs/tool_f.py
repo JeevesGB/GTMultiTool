@@ -328,7 +328,7 @@ class ToolFTab(QWidget):
 
         self.console = QTextEdit()
         self.console.setReadOnly(True)
-        self.console.setMaximumHeight(150)
+        self.console.setMaximumHeight(250)
         self.viewport.console = self.console
 
 
@@ -336,8 +336,8 @@ class ToolFTab(QWidget):
         slider_label = QLabel("Brightness:")
         self.brightness_slider = QSlider(Qt.Orientation.Vertical)
         self.brightness_slider.setMinimum(0)
-        self.brightness_slider.setMaximum(100)
-        self.brightness_slider.setValue(50)
+        self.brightness_slider.setMaximum(200)
+        self.brightness_slider.setValue(100)
         self.brightness_slider.valueChanged.connect(self._update_brightness)
         self.brightness_value_label = QLabel("0.50")
         slider_layout.addWidget(slider_label)

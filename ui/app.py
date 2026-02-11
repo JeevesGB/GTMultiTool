@@ -34,12 +34,14 @@ class App(QMainWindow):
         self.tool_d_tab = ToolDTab()
         self.tool_e_tab = ToolETab()
         self.tool_f_tab = ToolFTab()
+        #self.tool_g_tab = ToolGTab() - placeholder 
         self.tabs.addTab(self.tool_a_tab, "TXT 2 CSV")
         self.tabs.addTab(self.tool_b_tab, "pPainter")
         self.tabs.addTab(self.tool_c_tab, "GT2 Billboard Editor GUI")
         self.tabs.addTab(self.tool_d_tab, ".tim Viewer")
         self.tabs.addTab(self.tool_e_tab, "GT2 Model Tool GUI")
         self.tabs.addTab(self.tool_f_tab, ".obj Viewer")
+        #self.tabs.addTab(self.tool_g_tab, "---") - placeholder 
 # ---------- Menu ----------
     def _create_menu(self):
         menubar = self.menuBar()
@@ -102,7 +104,7 @@ class App(QMainWindow):
             "tool_d": self.tool_d_tab.get_state(),
             "tool_e": self.tool_e_tab.get_state(),
             "tool_f": self.tool_f_tab.get_state(),
-            #"tool_g": self.tool_g_tab.get_state() - placeholder
+            #"tool_g": self.tool_g_tab.get_state(), - placeholder
         }
 
         try:
