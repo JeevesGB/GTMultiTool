@@ -10,6 +10,12 @@ QFrame {
     border: none;
 }
 
+QTreeView {
+    background-color: #3f3f3f;
+    color: #dfdfdf;
+    border: 1px solid #a04343;
+}
+
 /* Fix tab content area border */
 QTabWidget::pane {
     border: none;

@@ -87,10 +87,10 @@ class App(QMainWindow):
         dark_theme_action.triggered.connect(lambda: self._apply_theme('dark'))
         theme_menu.addAction(dark_theme_action)
 
-    # Placeholes for future themes
-    # blue_theme_action = QAction("Blue Theme", self)
-    # blue_theme_action.triggered.connect(lambda: self._apply_theme('blue'))
-    # theme_menu.addAction(blue_theme_action)
+    # Placeholders for future themes
+        blue_theme_action = QAction("Blue Theme", self)
+        blue_theme_action.triggered.connect(lambda: self._apply_theme('blue'))
+        theme_menu.addAction(blue_theme_action)
 
 
     def _apply_theme(self, theme_name):
