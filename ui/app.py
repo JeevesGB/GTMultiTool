@@ -18,7 +18,7 @@ class App(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("GT Multi Tool")
-        self.setGeometry(100, 100, 1000, 700)
+        self.setGeometry(100, 100, 1000, 900)
         self.setWindowIcon(QIcon("ico.ico"))
         self._create_tabs()
         self._create_menu()
