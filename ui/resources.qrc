@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>themes/icons/car.png</file>
+        <file>themes/icons/csv.png</file>
+        <file>themes/icons/folder.png</file>
+        <file>themes/icons/load.png</file>
+        <file>themes/icons/open.png</file>
+        <file>themes/icons/save.png</file>
+        <file>themes/icons/texture.png</file>
+    </qresource>
+</RCC>
