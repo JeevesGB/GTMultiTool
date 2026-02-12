@@ -27,6 +27,10 @@ python main.py
 
 ![Main Window](git/5.png)
 
+## AdeyBlue's GMCreator Tutorial
+
+[![YouTube Video](https://img.youtube.com/vi/rOiIYFYEkOY/0.jpg)](https://youtu.be/rOiIYFYEkOY?si=37KNeaqpidnPwwOt)
+
 
 ## Credit
 
